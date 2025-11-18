@@ -22,6 +22,9 @@ public class Produto
     [StringLength(1000, ErrorMessage = "O nome deve possuir no máximo 1000 carácteres")]
     public string Descricao { get; set; }
 
+    [Required]
+    public int Qtde { get; set; } = 0;
+
     [Range(0, double.MaxValue)]
     [Display(Name = "Valor de Custo")]
     [Column(TypeName = "numeric(10,2)")]
