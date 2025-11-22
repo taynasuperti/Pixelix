@@ -5,67 +5,66 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pixelix - @ViewData["Title"]</title>
-    <script type="importmap"></script>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Pixelix.UI.styles.css" asp-append-version="true" />
+
     @await RenderSectionAsync("Styles", required: false)
 </head>
 
-<body class="min-vh-100">
-    <header class="d-block">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold fs-3" asp-action="Index">
-                    <i class="fas fa-store me-2"></i>Pixelix
-                </a>
+<body class="min-vh-100 d-flex flex-column">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
-                    aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header>
+        <nav class="pixelix-navbar d-flex align-items-center justify-content-between px-4">
+            <!-- Logo → imagem -->
+            <a asp-controller="Home" asp-action="Index" class="pixelix-logo d-flex align-items-center">
+                <img src="~/img/logo-pixelix.png" alt="Pixelix" class="pixelix-logo-img" />
+            </a>
 
-                <div class="collapse navbar-collapse" id="navbarMain">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" asp-action="Index" asp-controller="Home">
-                                <i class="fas fa-home me-1"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-action="Produtos" asp-controller="Home">
-                                <i class="fas fa-shopping-bag me-1"></i>Produtos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-action="Privacy" asp-controller="Home">
-                                <i class="fas fa-shield-alt me-1"></i>Privacidade
-                            </a>
-                        </li>
-                    </ul>
+            <!-- Menu principal -->
+            <ul class="pixelix-menu d-flex align-items-center gap-4 m-0 p-0">
+                <li><a asp-controller="Home" asp-action="Index" class="pixelix-link">HOME</a></li>
+                <li><a asp-controller="Sprites" asp-action="Index" class="pixelix-link">SPRITES</a></li>
+                <li><a asp-controller="Home" asp-action="Sobre" class="pixelix-link">SOBRE NÓS</a></li>
+            </ul>
 
-                    <div class="d-flex align-items-center">
-                        <partial name="_LoginPartial" />
-                    </div>
-                </div>
+            <!-- Ícones lado direito -->
+            <div class="pixelix-icons d-flex align-items-center gap-3">
+                <a asp-controller="Carrinho" asp-action="Index" class="pixelix-icon-btn"><i class="bi bi-cart"></i></a>
+                <a asp-controller="Conta" asp-action="Index" class="pixelix-icon-btn"><i class="bi bi-person"></i></a>
             </div>
         </nav>
     </header>
 
-    <main role="main" class="container-fluid d-flex flex-column">
+    <main class="flex-grow-1 p-0 m-0">
         @RenderBody()
     </main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Pixelix - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="pixelix-footer text-center py-4">
+        <h5 class="fw-bold mb-3 pixelix-footer-title">Fale Conosco!</h5>
+
+        <div class="d-flex justify-content-center gap-4 mb-3">
+            <a href="#" class="pixelix-social"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="pixelix-social"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="pixelix-social"><i class="bi bi-instagram"></i></a>
+        </div>
+
+        <div class="pixelix-footer-info mb-3">
+            <span><i class="bi bi-headset"></i> Suporte Chat 24h</span>
+            &nbsp;•&nbsp;
+            <span><i class="bi bi-envelope"></i> Pixelix@gmail.com</span>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 
 </html>

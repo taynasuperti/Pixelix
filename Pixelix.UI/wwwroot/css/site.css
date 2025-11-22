@@ -1,140 +1,279 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+/* ======== CORES ======== */
+:root {
+  --px-purple: #3f1662;
+  --px-purple-light: #9456c4;
+  --px-bg: #ecd4ff;
 }
 
 body {
-  padding-bottom: 60px;
-  background-color: #ECD4FF !important;
+  background-color: var(--px-bg) !important;
+  overflow-x: hidden;
+  font-family: "Pixelify Sans", sans-serif; /* ou a fonte que você estiver usando */
 }
 
-main {
-  min-height: calc(100vh - 160px);
-  flex: 1;
-  margin-bottom: 20px;
-  background-color: #ECD4FF !important;
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* ========================= */
+/* ======== NAVBAR ========= */
+/* ========================= */
+.pixelix-navbar {
+  background-color: var(--px-purple);
+  height: 70px;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.pixelix-logo-img {
+  height: 42px;
+  object-fit: contain;
 }
 
-.navbar-color {
-  background-color: #3F1662 !important;
+.pixelix-menu li {
+  list-style: none;
 }
 
-.footer {
-  background-color: #3F1662 !important;
-}
-
-a.nav-item.nav-link {
-  color: #ffffff;
+.pixelix-link {
+  text-decoration: none;
+  color: white;
   font-weight: bold;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  font-family: "Pixelify Sans", sans-serif; /* ou a fonte que você estiver usando */
+  font-size: 22px;
 }
 
-a.nav-item.nav-link.active {
-  color: #9456C4;
-  font-weight: bold;
+.pixelix-link:hover {
+  color: var(--px-purple-light);
 }
 
-i {
-  color: #ffffff;
-  background-color: #9456C4;
-  padding: 5px 10px;
+.pixelix-icons i {
+  font-size: 1.4rem;
+}
+
+.pixelix-icon-btn {
+  color: white;
+  padding: 6px 10px;
   border-radius: 10px;
+  background-color: var(--px-purple-light);
+  text-decoration: none;
+  transition: 0.2s;
 }
 
-/* Estilos específicos para a loja */
-.hero-section {
-  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
-}
-
-.product-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
-}
-
-.text-truncate-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.card-img-top {
-  border-radius: 0.375rem 0.375rem 0 0;
-}
-
-/* Badge de estoque */
-.badge.bg-success {
-  background-color: #198754 !important;
-}
-
-.badge.bg-danger {
-  background-color: #dc3545 !important;
-}
-
-/* Navbar brand */
-.navbar-brand {
-  font-size: 1.5rem;
-}
-
-/* Hero section com fundo fixo */
-.bg-primary {
-  background-color: #0d6efd !important;
-}
-
-/* Cards de produtos */
-.card {
-  transition: transform 0.2s ease-in-out;
-}
-
-.card:hover {
+.pixelix-icon-btn:hover {
   transform: translateY(-2px);
+  filter: brightness(1.2);
 }
 
-/* Text truncate utilitário */
-.text-truncate-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* ========================= */
+/* ========= FOOTER ========= */
+/* ========================= */
+.pixelix-footer {
+  background-color: var(--px-purple);
+  color: white;
+  padding-top: 16px !important; /* antes ~32px */
+  padding-bottom: 16px !important; /* antes ~32px */
 }
 
-/* Botões arredondados */
-.btn-rounded {
-  border-radius: 50px;
+.pixelix-footer-title {
+  letter-spacing: 1px;
+  margin-bottom: 12px !important; /* título mais próximo */
 }
 
-/* Espaçamentos consistentes */
-.section-spacing {
-  margin: 3rem 0;
+.pixelix-social {
+  font-size: 1.5rem; /* menor */
+  color: white;
+  background-color: var(--px-purple-light);
+  padding: 6px 10px; /* reduzido */
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.2s;
+  margin-bottom: 4px;
 }
 
-/* Imagens responsivas */
-.card-img-top {
+.pixelix-social:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.2);
+}
+
+.pixelix-footer-info {
+  font-size: 0.8rem; /* menor */
+  margin-bottom: 6px !important;
+}
+
+.pixelix-footer-info i {
+  margin-right: 4px;
+}
+
+.pixelix-footer-logo {
+  height: 28px; /* antes 40px */
+  margin-top: 6px;
+}
+
+/* ----------------------------------------- */
+/* CARROSSEL FULL WIDTH */
+/* ----------------------------------------- */
+/* CARROSSEL FULL WIDTH */
+.home-carousel {
+  width: 100vw;
+  margin-left: calc(50% - 50vw); /* remove limite à esquerda */
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+
+.pixel-title {
+  font-family: "Pixelify Sans", sans-serif; /* ou a fonte que você estiver usando */
+  color: #ffffff; /* cor do texto */
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0px 20px 15px;
+  border-radius: 15px;
+  background-color: #7350b07c;
+  /* contorno pixelado roxo */
+  text-shadow: -4px -4px 0 #6b2ca1, -4px 0px 0 #6b2ca1, -4px 4px 0 #6b2ca1,
+    0px -4px 0 #6b2ca1, 0px 4px 0 #6b2ca1, 4px -4px 0 #6b2ca1, 4px 0px 0 #6b2ca1,
+    4px 4px 0 #6b2ca1;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 360px;
   object-fit: cover;
+  display: block;
+}
+
+/* TÍTULO DO CARROSSEL (ESTILO PIXEL, IGUAL PROTÓTIPO) */
+.carousel-title {
+  position: absolute;
+  top: 70px;
+  left: 6%; /* -> movimenta levemente pra esquerda */
+  transform: translateX(0%);
+  z-index: 20;
+  font-weight: bold;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 80px; /* maior */
+  line-height: 1.4;
+  text-align: center;
+  padding: 15px 25px;
+  background: none !important; /* remove qualquer fundo */
+  color: white;
+  text-shadow: -4px -4px 0 #6b2ca1, -4px 0px 0 #6b2ca1, -4px 4px 0 #6b2ca1,
+    0px -4px 0 #6b2ca1, 0px 4px 0 #6b2ca1, 4px -4px 0 #6b2ca1, 4px 0px 0 #6b2ca1,
+    4px 4px 0 #6b2ca1;
+}
+
+/* ----------------------------------------- */
+/* CARDS COM DESCONTO */
+/* ----------------------------------------- */
+.discount-card {
+  background-color: #693b8d;
+  border: 3px solid #3f1662;
+  border-radius: 15px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.discount-img-wrapper img {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid #3f1662;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #3f1662;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.discount-btn {
+  background-color: #3f1662;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+/* ----------------------------------------- */
+/* SPRITES EM ALTA */
+/* ----------------------------------------- */
+.sprites-em-alta-title {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0px 20px 15px;
+  border-radius: 15px;
+  border: 4px solid #9456c4;
+  background-color: #9456c4;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+
+/* HOVER GERAL PARA CARDS */
+.discount-card{
+    transition: transform 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
+}
+
+.discount-card:hover {
+    transform: translateY(-4px) scale(1.03);
+    filter: brightness(1.08);
+}
+
+/* HOVER PARA OS CARDS DE SPRITES EM ALTA */
+.hot-card {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.hot-card:hover {
+    transform: translateY(-4px) scale(1.03);
+}
+
+
+
+/* ----------------------------------------- */
+/* CARDS - SPRITES EM ALTA */
+/* ----------------------------------------- */
+.hot-card {
+  background-color: #ecd4ff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.hot-img {
+  width: 100%;
+  border-radius: 15px;
+  border: 6px solid #3f1662;
+}
+
+.hot-price-tag {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: #693b8d;
+  border: 2px solid #3f1662;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.hot-card-title {
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Pixelify Sans", sans-serif;
 }
