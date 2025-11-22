@@ -93,8 +93,7 @@ public class HomeController : Controller
         }
     }
 
-    [Authorize]
-    public IActionResult Privacy()
+    public IActionResult Sobre()
     {
         return View();
     }

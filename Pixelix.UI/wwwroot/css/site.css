@@ -277,3 +277,69 @@ body {
   font-size: 16px;
   font-family: "Pixelify Sans", sans-serif;
 }
+
+/* Fonte geral da página */
+.sobre-texto,
+.pixel-title {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #2d004d;
+}
+
+/* TITULO COM BORDA PIXELADA (igual ao SPRITES EM ALTA) */
+.pixel-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow:
+        -2px -2px 0 #693B8D,
+        2px -2px 0 #693B8D,
+        -2px 2px 0 #693B8D,
+        2px 2px 0 #693B8D;
+}
+
+/* CARD DO TEXTO */
+.sobre-card {
+    background-color: #B898D0;
+    border: 6px solid #693B8D;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* FOTOS */
+.dev-img {
+    width: 100%;
+    max-width: 250px;
+    border: 6px solid #693B8D;
+    border-radius: 5px;
+}
+
+.nome {
+  color: #693B8D;
+  font-weight: 800;
+    text-shadow:
+        -2px -2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px 2px 0 #ffffff;
+}
+
+/* ÍCONES */
+.social-icons i {
+  font-size: 1.4rem;
+}
+
+.social-icons a {
+  color: white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: var(--px-purple-light);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+/* Hover apenas no ícone (igual aos cards) */
+.social-icons a:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
