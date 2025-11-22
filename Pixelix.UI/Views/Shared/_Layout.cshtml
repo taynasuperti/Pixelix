@@ -25,28 +25,31 @@
                 <img src="~/img/logo-pixelix.png" alt="Pixelix" class="pixelix-logo-img" />
             </a>
 
-            <ul class="pixelix-menu d-flex align-items-center gap-4 m-0 p-0">
-                <li>
-                    <a asp-controller="Home" asp-action="Index"
-                        class="pixelix-link @(ViewContext.RouteData.Values["action"]!.ToString() == "Index" ? "active-link" : "")">
-                        HOME
-                    </a>
-                </li>
+<ul class="pixelix-menu d-flex align-items-center gap-4 m-0 p-0">
 
-                <li>
-                    <a asp-controller="Sprites" asp-action="Index"
-                        class="pixelix-link @(ViewContext.RouteData.Values["controller"]!.ToString() == "Sprites" ? "active-link" : "")">
-                        SPRITES
-                    </a>
-                </li>
+    <li>
+        <a asp-controller="Home" asp-action="Index"
+           class="pixelix-link @(ViewContext.RouteData.Values["controller"]!.ToString() == "Home" && ViewContext.RouteData.Values["action"]!.ToString() == "Index" ? "active-link" : "")">
+           HOME
+        </a>
+    </li>
 
-                <li>
-                    <a asp-controller="Home" asp-action="Sobre"
-                        class="pixelix-link @(ViewContext.RouteData.Values["action"]!.ToString() == "Sobre" ? "active-link" : "")">
-                        SOBRE NÓS
-                    </a>
-                </li>
-            </ul>
+    <li>
+        <a asp-controller="Sprites" asp-action="Index"
+           class="pixelix-link @(ViewContext.RouteData.Values["controller"]!.ToString() == "Sprites" && ViewContext.RouteData.Values["action"]!.ToString() == "Index" ? "active-link" : "")">
+           SPRITES
+        </a>
+    </li>
+
+    <li>
+        <a asp-controller="Home" asp-action="Sobre"
+           class="pixelix-link @(ViewContext.RouteData.Values["controller"]!.ToString() == "Home" && ViewContext.RouteData.Values["action"]!.ToString() == "Sobre" ? "active-link" : "")">
+           SOBRE NÓS
+        </a>
+    </li>
+
+</ul>
+
 
 
             <!-- Ícones lado direito -->

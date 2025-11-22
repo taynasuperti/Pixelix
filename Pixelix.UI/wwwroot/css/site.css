@@ -24,6 +24,12 @@ body {
   height: 70px;
 }
 
+.active-link {
+    color: var(--px-purple-light) !important;
+    text-shadow: 0px 0px 4px #00000055;
+}
+
+
 .pixelix-logo-img {
   height: 42px;
   object-fit: contain;
