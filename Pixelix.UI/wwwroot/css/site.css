@@ -349,3 +349,106 @@ body {
   transform: translateY(-2px);
   filter: brightness(1.2);
 }
+
+/* --- Página de Registro --- */
+
+.register-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-card {
+    max-width: 600px;
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #B898D0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #00000040;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.register-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #3F1662;
+    text-shadow:
+        -2px -2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px 2px 0 #ffffff;
+}
+
+/* --- Promo card com ícone --- */
+.register-promo {
+    background-color: #7350b088;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.register-promo i {
+    color: #ffffff; /* Ícone branco */
+    font-size: 22px;
+}
+
+/* Inputs alinhados com o tamanho do promo card */
+.register-input {
+    background-color: #7350b088;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    width: 100%; /* Agora fica exatamente do tamanho do cartão */
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.register-input::placeholder {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Botão */
+.register-button {
+    background-color: #693B8D;
+    color: white;
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 3px solid #3F1662;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.register-button:hover {
+    background-color: #7a4ba8;
+}
+
+/* Texto login */
+.register-login-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.register-login-link {
+    color: #3F1662;
+    text-decoration: underline;
+}
+
+.register-login-link:hover {
+    color: #240a41;
+}
