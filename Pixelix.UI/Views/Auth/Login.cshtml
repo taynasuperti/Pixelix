@@ -3,28 +3,48 @@
     ViewData["Title"] = "Login";
 }
 
-<div class="card formContainer p-5">
-    <h2 class="mb-4">Login</h2>
-    <form asp-action="Login" method="post">
-        <div asp-validation-summary="ModelOnly" class="text-danger" hidden></div>
-        <div class="mb-3">
-            <label asp-for="Email" class="form-label"></label>
-            <input asp-for="Email" class="form-control" />
-            <span asp-validation-for="Email" class="text-danger mt-2"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Senha" class="form-label"></label>
-            <input asp-for="Senha" type="password" class="form-control" />
-            <span asp-validation-for="Senha" class="text-danger mt-2"></span>
-        </div>
-        <button type="submit" class="btn btn-primary w-100 mt-1">Entrar</button>
+<div class="register-container">
+    <div class="register-card">
         
-        <p class="text-center mt-3">Novo por aqui? <a asp-action="Registro" asp-controller="Auth">Crie sua conta!</a></p>
-    </form>
+        <!-- Título -->
+        <h2 class="register-title">Entra na conta</h2>
+
+        <!-- Formulário -->
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" hidden></div>
+
+            <div class="mb-3">
+                <input asp-for="Email" placeholder="E-mail" class="register-input" />
+                <span asp-validation-for="Email" class="text-danger mt-2"></span>
+            </div>
+
+            <div class="mb-4">
+                <input asp-for="Senha" type="password" placeholder="Senha" class="register-input" />
+                <span asp-validation-for="Senha" class="text-danger mt-2"></span>
+            </div>
+
+            <button type="submit" class="register-button">
+                Entrar
+            </button>
+
+            <p class="register-login-text">
+                Não possui conta ainda?
+                <a asp-action="Registro" asp-controller="Auth" class="register-login-link">
+                    Crie sua conta!
+                </a>
+            </p>
+
+            <p class="register-login-text mt-2">
+                <a asp-action="RecuperarSenha" asp-controller="Auth" class="register-login-link">
+                    Esqueceu a senha?
+                </a>
+            </p>
+        </form>
+    </div>
 </div>
 
 @section Styles {
-    <link rel="stylesheet" href="~/css/auth.css">
+    <link rel="stylesheet" href="~/css/site.css">
 }
 
 @section Scripts {
