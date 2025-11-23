@@ -452,3 +452,21 @@ body {
 .register-login-link:hover {
     color: #240a41;
 }
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .password-toggle {
+    position: absolute;
+    right: 12px; /* agora fica à direita */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff; /* branco */
+}
+
+.password-wrapper .register-input {
+    padding-right: 45px !important; /* espaço para o ícone */
+}

@@ -5,46 +5,49 @@
 
 <div class="register-container">
     <div class="register-card">
-        
+
         <!-- Título -->
         <h2 class="register-title">Crie sua conta aqui!</h2>
 
-<!-- Texto promocional com ícone Bootstrap -->
-<div class="register-promo d-flex align-items-center justify-content-center gap-2">
-    <i class="bi bi-credit-card"></i>
-    <span>6% OFF para novos usuários</span>
-</div>
+        <!-- Texto promocional com ícone Bootstrap -->
+        <div class="register-promo d-flex align-items-center justify-content-center gap-2">
+            <i class="bi bi-credit-card"></i>
+            <span>6% OFF para novos usuários</span>
+        </div>
 
         <!-- Formulário -->
-<form asp-action="Registro" method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger" hidden></div>
+        <form asp-action="Registro" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" hidden></div>
 
-    <div class="mb-3">
-        <input asp-for="Nome" placeholder="Nome completo" class="register-input" />
-        <span asp-validation-for="Nome" class="text-danger mt-2"></span>
-    </div>
+            <div class="mb-3">
+                <input asp-for="Nome" placeholder="Nome completo" class="register-input" />
+                <span asp-validation-for="Nome" class="text-danger mt-2"></span>
+            </div>
 
-    <div class="mb-3">
-        <input asp-for="Email" placeholder="E-mail" class="register-input" />
-        <span asp-validation-for="Email" class="text-danger mt-2"></span>
-    </div>
+            <div class="mb-3">
+                <input asp-for="Email" placeholder="E-mail" class="register-input" />
+                <span asp-validation-for="Email" class="text-danger mt-2"></span>
+            </div>
 
-    <div class="mb-4">
-        <input asp-for="Senha" type="password" placeholder="Senha" class="register-input" />
-        <span asp-validation-for="Senha" class="text-danger mt-2"></span>
-    </div>
+            <div class="mb-4 password-wrapper">
+                <input asp-for="Senha" type="password" placeholder="Senha" class="register-input" id="registroSenha" />
+                <i class="bi bi-eye password-toggle" data-target="registroSenha"></i>
+                <span asp-validation-for="Senha" class="text-danger mt-2"></span>
+            </div>
 
-    <button type="submit" class="register-button">
-        Criar Conta
-    </button>
 
-    <p class="register-login-text">
-        Já possui conta?
-        <a asp-action="Login" asp-controller="Auth" class="register-login-link">
-            Clique aqui para acessar
-        </a>
-    </p>
-</form>
+
+            <button type="submit" class="register-button">
+                Criar Conta
+            </button>
+
+            <p class="register-login-text">
+                Já possui conta?
+                <a asp-action="Login" asp-controller="Auth" class="register-login-link">
+                    Clique aqui para acessar
+                </a>
+            </p>
+        </form>
     </div>
 </div>
 
@@ -54,4 +57,23 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial.cshtml" />
+
+    <script>
+        document.querySelectorAll(".password-toggle").forEach(icon => {
+            icon.addEventListener("click", () => {
+                const inputId = icon.getAttribute("data-target");
+                const input = document.getElementById(inputId);
+
+                if (input.type === "password") {
+                    input.type = "text";
+                    icon.classList.remove("bi-eye");
+                    icon.classList.add("bi-eye-slash");
+                } else {
+                    input.type = "password";
+                    icon.classList.remove("bi-eye-slash");
+                    icon.classList.add("bi-eye");
+                }
+            });
+        });
+    </script>
 }

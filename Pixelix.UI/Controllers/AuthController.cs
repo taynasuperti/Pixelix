@@ -73,4 +73,25 @@ public class AuthController : Controller
         _authService.Logout();
         return RedirectToAction("Index", "Home");
     }
+
+    [HttpGet]
+    public IActionResult RecuperarSenha()
+    {
+        return View(new RecuperarSenhaVM());
+    }
+
+    [HttpPost]
+    public IActionResult RecuperarSenha(RecuperarSenhaVM model)
+    {
+        if (!ModelState.IsValid)
+            return View(model);
+
+        // Aqui você atualizará a senha no banco de dados
+        // Exemplo simples: AuthService.UpdatePassword(model.NovaSenha);
+
+        TempData["Mensagem"] = "Senha redefinida com sucesso!";
+
+        return RedirectToAction("Login", "Auth");
+    }
+
 }
