@@ -271,12 +271,6 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\scopedcss\bundle\Pixe
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets\msbuild.Pixelix.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets\msbuild.Pixelix.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets\msbuild.build.Pixelix.API.props
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Pixelix.API.props
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Pixelix.API.props
-C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix..641FF18C.Up2Date
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix.API.dll
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\refint\Pixelix.API.dll
@@ -567,3 +561,8 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.API\obj\Debug
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix.API.pdb
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix.API.genruntimeconfig.cache
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.API\obj\Debug\net9.0\ref\Pixelix.API.dll
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\staticwebassets.build.json.cache

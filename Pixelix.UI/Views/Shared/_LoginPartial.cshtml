@@ -1,39 +1,66 @@
 @using Pixelix.UI.Services
 @inject IAuthService AuthService
+
 @{
     string foto = AuthService.GetUserFoto();
-    foto = string.IsNullOrEmpty(foto) ? "http://localhost:5058/img/usuarios/no-photo.png" : foto;
+    foto = string.IsNullOrEmpty(foto)
+        ? "/img/usuarios/no-photo.png"
+        : foto;
+
+    string nome = AuthService.GetUserName();
+    string perfil = AuthService.GetUserPerfil();
 }
 
-@if (AuthService.IsAuthenticated())
+@if (!AuthService.IsAuthenticated())
 {
-    <div class="nav-item dropdown userDropdown">
-        <a class="d-flex align-items-center text-decoration-none dropdown-toggle" href="#" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="@foto" width="40" class="me-2" />
-            <div class="d-none d-md-block text-white">
-                <div class="mb-0">@AuthService.GetUserName()</div>
-                <small class="mt-0">@AuthService.GetUserPerfil()</small>
-            </div>
-        </a>
-        <ul class="dropdown-menu" style="left: unset !important; right: 0 !important;">
-            <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
-            @if (AuthService.GetUserPerfil() == "Administrador")
-            {
-                <li><a class="dropdown-item" asp-action="Index" asp-controller="Admin">Acessar Área Administrativa </a> </li>
-                <li><a class="dropdown-item" asp-action="Index" asp-controller="Home">Acessar Área Publica</a></li>
-            }
-            <li>
-                <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" asp-controller="Auth" asp-action="Logout">Sair</a></li>
-        </ul>
-    </div>
+    <!-- Usuário não logado → mostra ícone de pessoa -->
+    <a asp-controller="Auth" asp-action="Login" class="pixelix-icon-btn" title="Fazer login">
+        <i class="bi bi-person"></i>
+    </a>
 }
 else
 {
-    <div>
-        <a class="btn btn-dark text-white px-3" asp-controller="Auth" asp-action="Login">Acesso</a>
+    <!-- Usuário logado → dropdown -->
+    <div class="nav-item dropdown userDropdown">
+        <a class="d-flex align-items-center text-decoration-none dropdown-toggle pixelix-icon-btn"
+           href="#" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <img src="@foto" width="40" height="40"
+                 class="rounded-circle object-fit-cover me-2 border border-light">
+
+            <div class="d-none d-md-block text-white">
+                <div class="fw-bold small">@nome</div>
+                <small class="opacity-75">@perfil</small>
+            </div>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-end">
+
+            <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Meu Perfil</a></li>
+
+            @* Se for Admin mostra a área administrativa *@
+            @if (perfil == "Administrador")
+            {
+                <li>
+                    <a class="dropdown-item" asp-controller="Admin" asp-action="Index">
+                        <i class="bi bi-speedometer2"></i> Acessar Área Administrativa
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" asp-controller="Home" asp-action="Index">
+                        <i class="bi bi-house"></i> Acessar Área Pública
+                    </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+            }
+
+            <li>
+                <a class="dropdown-item" asp-controller="Auth" asp-action="Logout">
+                    <i class="bi bi-box-arrow-right"></i> Sair
+                </a>
+            </li>
+        </ul>
     </div>
 }
-

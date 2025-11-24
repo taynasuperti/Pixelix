@@ -360,6 +360,7 @@ body {
 }
 
 .register-card {
+    margin: 30px !important;
     max-width: 600px;
     width: 100%;
     padding: 2.5rem;
