@@ -190,7 +190,6 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
-C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-9yhthvq1w7.gz
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.csproj.AssemblyReference.cache
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\7ofvhdh0k2-qaswreahxf.gz
@@ -203,3 +202,4 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets\msbuil
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Pixelix.UI.props
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Pixelix.UI.props
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-b6bwpt4ej9.gz
