@@ -71,6 +71,31 @@ public class HomeController : Controller
         }
     }
 
+    // GET: Home/Sprites - Tela com todos os sprites e filtros
+    public async Task<IActionResult> Sprites()
+{
+    try
+    {
+        var categorias = await _lojaService.ObterCategoriasAtivasAsync();
+        var produtos = await _lojaService.ObterTodosProdutosAsync();
+
+        var viewModel = new SpritesPageVM
+        {
+            Categorias = categorias,
+            Produtos = produtos
+        };
+
+        return View(viewModel);
+    }
+    catch (Exception ex)
+    {
+        _logger.LogError(ex, "Erro ao carregar tela de sprites");
+        TempData["Erro"] = "Erro ao carregar sprites. Tente novamente.";
+        return View(new SpritesPageVM());
+    }
+}
+
+
     // GET: Home/Detalhes/5 - Detalhes do produto
     public async Task<IActionResult> Detalhes(int id)
     {
