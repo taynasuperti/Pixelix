@@ -472,10 +472,15 @@ body {
     padding-right: 45px !important; /* espaço para o ícone */
 }
 
+.sprite-filter-navbar {
+  background-color: #B898D0;
+  margin: 0px 0px 30px;
+  padding: 10px 0px !important;
+}
+
 /* === BOTÃO HAMBURGUER FIXO === */
 .filter-toggle-btn {
-    position: fixed;
-    top: 80px;
+    position: relative;
     left: 20px;
     z-index: 1100;
     background-color: var(--px-purple);
@@ -525,6 +530,8 @@ body {
   transform: scale(1.1);
   filter: brightness(1.2);
 }
+
+
 
 
 .filter-sidebar.active {
@@ -597,4 +604,27 @@ body {
 
 .mais-categorias-btn i {
   font-size: 1.4rem;
+}
+
+.pixel-banner {
+  background-color: #7350b088; /* roxo escuro */
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px 40px 10px 40px !important;
+  box-shadow: #ffffff;
+}
+
+.pixel-banner-text {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #3F1662;
+  margin: 0;
+  line-height: 1.4;
+  text-shadow:
+      -2px -2px 0 #ffffff,
+      2px -2px 0 #ffffff,
+      -2px 2px 0 #ffffff,
+      2px 2px 0 #ffffff;
 }
