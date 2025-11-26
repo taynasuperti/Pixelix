@@ -1,0 +1,32 @@
+@model Pixelix.UI.ViewModels.CarrinhoVM
+
+<div class="container mt-4">
+    <h2 class="pixel-title text-center mb-4">Seu Carrinho</h2>
+
+    @if (Model.Itens.Any())
+    {
+        <div class="row g-4">
+            @foreach (var item in Model.Itens)
+            {
+                <div class="col-md-4">
+                    <div class="hot-card">
+                        <div class="position-relative">
+                            <img src="@item.Foto" class="hot-img" />
+                            <span class="hot-price-tag">R$ @item.ValorVenda.ToString("F2")</span>
+                        </div>
+                        <p class="hot-card-title">@item.Nome<br>@item.Descricao</p>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-end mt-4">
+            <h4>Total: R$ @Model.Total.ToString("F2")</h4>
+            <a href="#" class="btn btn-success">Finalizar Compra</a>
+        </div>
+    }
+    else
+    {
+        <p class="text-center">Seu carrinho está vazio.</p>
+    }
+</div>

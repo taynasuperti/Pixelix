@@ -202,4 +202,4 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets\msbuil
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Pixelix.UI.props
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-b6bwpt4ej9.gz
-C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-quhxcrt7h8.gz
+C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-1tsumwvovq.gz
