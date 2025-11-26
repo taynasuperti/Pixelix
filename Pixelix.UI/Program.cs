@@ -68,6 +68,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+builder.Services.AddDistributedMemoryCache();
+
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseSession();

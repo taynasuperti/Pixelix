@@ -4,6 +4,8 @@ using Pixelix.UI.Services.Interfaces;
 using Pixelix.UI.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
+
 
 namespace Pixelix.UI.Controllers;
 
@@ -278,36 +280,46 @@ public class ProdutosController : Controller
     }
 
     [AllowAnonymous]
-public IActionResult Carrinho()
-{
-    // Simulação de itens no carrinho
-    var itensCarrinho = new List<ProdutoDto>
+// GET: /Produto/Carrinho
+    public IActionResult Carrinho()
     {
-        new ProdutoDto
+        List<ProdutoDto> itensCarrinho;
+
+        var sessionJson = HttpContext.Session.GetString("Carrinho");
+        if (!string.IsNullOrEmpty(sessionJson))
         {
-            Id = 1,
-            Nome = "Sprite de Pássaros",
-            Descricao = "Diversidade de pássaros 2D",
-            ValorVenda = 240.00m,
-            Foto = "/img/sprites-teste.jpg"
-        },
-        new ProdutoDto
-        {
-            Id = 2,
-            Nome = "Doces 2D",
-            Descricao = "130 sprites deliciosos",
-            ValorVenda = 120.99m,
-            Foto = "/img/sprites-teste.jpg"
+            try
+            {
+                itensCarrinho = JsonSerializer.Deserialize<List<ProdutoDto>>(sessionJson) ?? new List<ProdutoDto>();
+            }
+            catch
+            {
+                itensCarrinho = new List<ProdutoDto>();
+            }
         }
-    };
+        else
+        {
+            // fallback estático para desenvolvimento / testes
+            itensCarrinho = new List<ProdutoDto>
+            {
+                new ProdutoDto
+                {
+                    Id = 1,
+                    Nome = "Pão com 130 Sprites de Guloseimas 2D",
+                    Descricao = "Pacote com sprites variados",
+                    ValorVenda = 120.99m,
+                    Foto = "/img/sprites-teste.jpg",
+                    CategoriaNome = "Doces"
+                }
+            };
+        }
 
-    var viewModel = new CarrinhoVM
-    {
-        Itens = itensCarrinho,
-        Total = itensCarrinho.Sum(p => p.ValorVenda)
-    };
+        var vm = new CarrinhoVM
+        {
+            Itens = itensCarrinho,
+            Total = itensCarrinho.Sum(x => x.ValorVenda)
+        };
 
-    return View(viewModel);
-}
-
+        return View(vm);
+    }
 }

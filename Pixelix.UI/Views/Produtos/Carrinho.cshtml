@@ -1,32 +1,127 @@
 @model Pixelix.UI.ViewModels.CarrinhoVM
 
-<div class="container mt-4">
-    <h2 class="pixel-title text-center mb-4">Seu Carrinho</h2>
+@{
+    // cálculos
+    var total = Model.Total;
+    var creditoAcrescimo = 10.00m; // conforme pedido: + 10 (em R$)
+    var totalCredito = total + creditoAcrescimo;
+    string formatoStatico = "PNG & JPG";
+}
 
-    @if (Model.Itens.Any())
+<main class="container py-4">
+
+    @* TÍTULO (sempre visível) *@
+    <div class="d-flex align-items-center mb-3">
+        <h2 class="pixel-title-carrinho me-3">Seu Carrinho</h2>
+        <i class="bi bi-cart3 fs-3" style="color:#3F1662;"></i>
+    </div>
+
+    @* CONDICIONAL: carrinho vazio *@
+    @if (!Model.Itens.Any())
     {
-        <div class="row g-4">
+        <div class="empty-cart-wrap">
+            <h3 class="pixel-title" style="color:#ffffff; text-shadow: -2px -2px 0 #693B8D, 2px 2px 0 #693B8D;">
+                Ops, parece que seu carrinho ainda está vazio ;(
+            </h3>
+        </div>
+    }
+    else
+    {
+        @* LISTA DE ITENS - vários cards um embaixo do outro *@
+        <div class="cart-items-list">
             @foreach (var item in Model.Itens)
             {
-                <div class="col-md-4">
-                    <div class="hot-card">
-                        <div class="position-relative">
-                            <img src="@item.Foto" class="hot-img" />
-                            <span class="hot-price-tag">R$ @item.ValorVenda.ToString("F2")</span>
+                <div class="cart-item-card d-flex align-items-start mb-3">
+                    <div class="cart-item-img-wrapper me-3">
+                        <img src="@item.Foto" alt="@item.Nome" class="cart-item-img" />
+                    </div>
+
+                    <div class="cart-item-content flex-grow-1">
+                        <h4 class="cart-item-name">@item.Nome</h4>
+
+                        <div class="about-product d-flex align-items-start mb-2">
+                            <i class="bi bi-exclamation-circle rounded-circle p-1 me-2 about-icon"></i>
+                            <div>
+                                <div class="about-product-title">Sobre o produto</div>
+                                <ul class="about-list mb-1">
+                                    <li>Acompanha: exemplo de itens inclusos</li>
+                                    <li>Quantidade: 1</li>
+                                    <li>Categoria: @item.CategoriaNome</li>
+                                </ul>
+
+                            <div class=""about-format d-flex align-items-center justify-content-between mt-2">
+                            <i class="bi bi-download me-2 about-icon"></i>
+                                    <span class="title-format">Formato: </span><h4 class="text-format">@formatoStatico</h4>
                         </div>
-                        <p class="hot-card-title">@item.Nome<br>@item.Descricao</p>
+                            </div>
+                        </div>
+
+                        <div class=""d-flex align-items-center justify-content-between mt-2">
+                            <span class="title-format">Preço: </span>
+                            <div class="text-format">R$ @item.ValorVenda.ToString("F2")</div>
+                            <form asp-action="RemoverDoCarrinho" asp-controller="Produto" method="post">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn-remove">Remover</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             }
         </div>
 
-        <div class="text-end mt-4">
-            <h4>Total: R$ @Model.Total.ToString("F2")</h4>
-            <a href="#" class="btn btn-success">Finalizar Compra</a>
+        @* RESUMO DA COMPRA *@
+        <h3 class="pixel-title-resumo mt-4">Resumo da compra</h3>
+
+        <div class="payment-options mt-3 mb-3">
+            <label class="payment-row d-flex align-items-center mb-2">
+                <input type="radio" name="paymentMethod" value="pix" checked />
+                <span class="ms-2">PIX à vista: R$ @total.ToString("F2")</span>
+            </label>
+
+            <label class="payment-row d-flex align-items-center mb-2">
+                <input type="radio" name="paymentMethod" value="debito" />
+                <span class="ms-2">Cartão de Débito: R$ @total.ToString("F2")</span>
+            </label>
+
+            <label class="payment-row d-flex align-items-center mb-2">
+                <input type="radio" name="paymentMethod" value="credito" />
+                <span class="ms-2">Total a Prazo (crédito): R$ @totalCredito.ToString("F2")</span>
+            </label>
+        </div>
+
+        @* TOTAL A PAGAR (card com botão) *@
+        <div class="total-pay-card d-flex align-items-center justify-content-between p-3 mb-3">
+            <div class="total-pay-text">
+                TOTAL A PAGAR: R$ @total.ToString("F2")
+            </div>
+
+            <button class="finalize-btn d-flex flex-column align-items-center justify-content-center">
+                <span class="big-text">Finalizar</span>
+                <span class="big-text">Compra</span>
+            </button>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 mb-4">
+            <a asp-controller="Home" asp-action="Sprites" class="add-more-link">
+                <i class="bi bi-plus-circle me-2" style="color:#000;"></i>
+                ADICIONAR MAIS ITENS AO CARRINHO
+            </a>
         </div>
     }
-    else
-    {
-        <p class="text-center">Seu carrinho está vazio.</p>
-    }
-</div>
+</main>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/site.css">
+}
+
+@section Scripts {
+    <script>
+        // Comportamento simples: marcar radio e atualizar total visual (opcional)
+        document.addEventListener('DOMContentLoaded', function () {
+            const radios = document.querySelectorAll('input[name="paymentMethod"]');
+            radios.forEach(r => r.addEventListener('change', function () {
+                // aqui você pode atualizar o valor exibido se quiser
+            }));
+        });
+    </script>
+}
