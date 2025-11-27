@@ -12,8 +12,8 @@ using Pixelix.API.Data;
 namespace Pixelix.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251125012909_CriarEstruturaSprites")]
-    partial class CriarEstruturaSprites
+    [Migration("20251127195623_AddInitialSeeds")]
+    partial class AddInitialSeeds
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,13 +53,13 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0b44ca04-f6b0-4a8f-a953-1f2330d30894",
+                            Id = "ROLE-ADMIN-0001",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
+                            Id = "ROLE-CLIENT-0001",
                             Name = "Cliente",
                             NormalizedName = "CLIENTE"
                         });
@@ -154,8 +154,8 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
-                            RoleId = "0b44ca04-f6b0-4a8f-a953-1f2330d30894"
+                            UserId = "USER-ADMIN-0001",
+                            RoleId = "ROLE-ADMIN-0001"
                         });
                 });
 
@@ -325,9 +325,9 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
+                            Id = "USER-ADMIN-0001",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d733cab8-c493-4a26-900f-95603de5037f",
+                            ConcurrencyStamp = "e62708f7-5aa6-4f92-9a4c-7065bb1a1730",
                             DataNascimento = new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "taynasuperti@gmail.com",
                             EmailConfirmed = true,
@@ -336,9 +336,9 @@ namespace Pixelix.API.Migrations
                             Nome = "Tayná Carolina Miguel Superti",
                             NormalizedEmail = "TAYNASUPERTI@GMAIL.COM",
                             NormalizedUserName = "TAYNASUPERTI@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAECtgZwlHcghcQxQ5IgQbFg5MzRKvHKkRX9lxNdQu8w0a5ievHrk6C54JNxiDvHKFGg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOGZakC56lxEot9dXFdC2DlxIvG1qHrswwz6iZ7AiqePPst+SFgwOFIOb0/7mMArAg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "74a8f4b6-6b3f-436a-b391-df608ca4dd04",
+                            SecurityStamp = "8063fb95-8c68-40c9-ae82-1f45608f571c",
                             TwoFactorEnabled = false,
                             UserName = "taynasuperti@gmail.com"
                         });

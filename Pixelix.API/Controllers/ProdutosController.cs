@@ -4,6 +4,8 @@ using Pixelix.API.Data;
 using Pixelix.API.Models;
 using Pixelix.API.Services.Interfaces;
 using Pixelix.API.DTOs;
+using Microsoft.AspNetCore.Http;
+
 
 namespace Pixelix.API.Controllers;
 

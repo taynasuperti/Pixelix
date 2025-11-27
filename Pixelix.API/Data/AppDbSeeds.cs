@@ -1,89 +1,14 @@
 using Pixelix.API.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Pixelix.API.Data;
 
-public class AppDbContext : IdentityDbContext<Usuario>
+public static class AppDbSeeds
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-    {
-    }
-
-    public DbSet<Categoria> Categorias { get; set; }
-    public DbSet<Produto> Produtos { get; set; }
-    public DbSet<Usuario> Usuarios { get; set; }
-
-    protected override void OnModelCreating(ModelBuilder builder)
-    {
-        base.OnModelCreating(builder);
-
-        SeedRoles(builder);
-        SeedAdminUser(builder);
-        SeedCategorias(builder);
-        SeedProdutos(builder);
-    }
-
-    // -------------------------------------------------------------
-    // ROLES
-    // -------------------------------------------------------------
-    private static void SeedRoles(ModelBuilder builder)
-    {
-        builder.Entity<IdentityRole>().HasData(
-            new IdentityRole
-            {
-                Id = "role-admin-0001",
-                Name = "Administrador",
-                NormalizedName = "ADMINISTRADOR"
-            },
-            new IdentityRole
-            {
-                Id = "role-cliente-0001",
-                Name = "Cliente",
-                NormalizedName = "CLIENTE"
-            }
-        );
-    }
-
-    // -------------------------------------------------------------
-    // ADMIN USER
-    // -------------------------------------------------------------
-    private static void SeedAdminUser(ModelBuilder builder)
-    {
-        var admin = new Usuario
-        {
-            Id = "user-admin-0001",
-            Email = "taynasuperti@gmail.com",
-            NormalizedEmail = "TAYNASUPERTI@GMAIL.COM",
-            UserName = "taynasuperti@gmail.com",
-            NormalizedUserName = "TAYNASUPERTI@GMAIL.COM",
-            Nome = "Tayná Carolina Miguel Superti",
-            EmailConfirmed = true,
-            Foto = "/img/usuarios/avatar.png",
-            LockoutEnabled = false,
-            DataNascimento = DateTime.Parse("2006-11-06")
-        };
-
-        var hasher = new PasswordHasher<Usuario>();
-        admin.PasswordHash = hasher.HashPassword(admin, "123456");
-
-        builder.Entity<Usuario>().HasData(admin);
-
-        // Vincular ao role Administrador
-        builder.Entity<IdentityUserRole<string>>().HasData(
-            new IdentityUserRole<string>
-            {
-                UserId = "user-admin-0001",
-                RoleId = "role-admin-0001"
-            }
-        );
-    }
-
     // -------------------------------------------------------------
     // CATEGORIAS PADRÃO
     // -------------------------------------------------------------
-    private static void SeedCategorias(ModelBuilder builder)
+    public static void SeedCategorias(ModelBuilder builder)
     {
         builder.Entity<Categoria>().HasData(
             new Categoria { Id = 1, Nome = "Animais", Foto = null, Cor = null },
@@ -107,7 +32,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Id = 1,
                 CategoriaId = 1, // Animais
                 Nome = "Pack Fazendinha",
-                Descricao = "Sprite de um gatinho fofo em pixel art.",
+                Descricao = "Pack de animais para montar sua fazendinha em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
                 ValorVenda = 5.99m,
@@ -118,8 +43,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 2,
                 CategoriaId = 1, // Animais
-                Nome = "Gatinho Pixel Art",
-                Descricao = "Sprite de um gatinho fofo em pixel art.",
+                Nome = "Pack Gatinhos",
+                Descricao = "Pack de gatinhos fofinhos em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
                 ValorVenda = 5.99m,
@@ -130,8 +55,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 3,
                 CategoriaId = 1, // Animais
-                Nome = "Gatinho Pixel Art",
-                Descricao = "Sprite de um gatinho fofo em pixel art.",
+                Nome = "Pack Pássaros",
+                Descricao = "Pack de passarinhos em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
                 ValorVenda = 5.99m,
@@ -142,8 +67,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 4,
                 CategoriaId = 1, // Animais
-                Nome = "Gatinho Pixel Art",
-                Descricao = "Sprite de um gatinho fofo em pixel art.",
+                Nome = "Pack de Animais Silvestres",
+                Descricao = "Pack de animais silvestres em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
                 ValorVenda = 5.99m,
@@ -155,8 +80,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 5,
                 CategoriaId = 2, // Blocos
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Blocos de Flores",
+                Descricao = "Pack de diversas flores em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -167,8 +92,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 6,
                 CategoriaId = 2, // Blocos
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Blocos e Elementos",
+                Descricao = "Pack de blocos de elementos em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -179,8 +104,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 7,
                 CategoriaId = 2, // Blocos
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Blocos de Grama",
+                Descricao = "Pack de grama em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -191,8 +116,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 8,
                 CategoriaId = 2, // Blocos
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Portal Mágico",
+                Descricao = "Sprite de portal mágico para seu jogo.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -204,8 +129,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 9,
                 CategoriaId = 3, //  Cenários
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Cenário Completo CoinQuest",
+                Descricao = "Cenário em pixel art do jogo CoinQuest.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -216,8 +141,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 10,
                 CategoriaId = 3, // Cenários
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Cenário Completo de Hora de Aventura",
+                Descricao = "Cenário em pixel art do desenho Hora de Aventura.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -228,8 +153,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 11,
                 CategoriaId = 3, // Cenários
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Cenário Completo de Mystery Hack",
+                Descricao = "Cenário em pixel art do desenho Mystery Hack.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -241,8 +166,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 12,
                 CategoriaId = 4, // Comidas
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Comidas Diversas",
+                Descricao = "Pack de comidas 2D + de 130 sprites deliciosos!.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -253,8 +178,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 13,
                 CategoriaId = 4, // Comidas
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Doces Diversos",
+                Descricao = "Pack de doces e sobremesas 2D + de 130 sprites deliciosos!.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -266,8 +191,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 14,
                 CategoriaId = 5, // Itens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Poções",
+                Descricao = "Pack de poções mágicas em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -279,8 +204,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 15,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Fadinha",
+                Descricao = "Pack de personagem fada em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -291,8 +216,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 16,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Globin",
+                Descricao = "Pack de personagem globin em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -303,8 +228,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 17,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Mago",
+                Descricao = "Pack de personagem mago em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -315,8 +240,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 18,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Personagem Feminina",
+                Descricao = "Pack de personagem feminina em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -327,8 +252,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 19,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Personagem Masculino",
+                Descricao = "Pack de personagem masculino em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -339,8 +264,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 20,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack de Vilão",
+                Descricao = "Pack de personagem vilão em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -351,8 +276,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 21,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack Bruxa Pixel Art",
+                Descricao = "Pack de personagem bruxa em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,
@@ -363,8 +288,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
             {
                 Id = 22,
                 CategoriaId = 6, // Personagens
-                Nome = "Heroína Pixel Art",
-                Descricao = "Sprite de personagem feminina estilo 16-bits.",
+                Nome = "Pack Fadinhas Pixel Art",
+                Descricao = "Pack de personagem fadinhas em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
                 ValorVenda = 8.99m,

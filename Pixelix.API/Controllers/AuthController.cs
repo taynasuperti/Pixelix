@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Pixelix.API.DTOs;
 using Pixelix.API.Services.Interfaces;
+using Microsoft.AspNetCore.Http;
 
 namespace Pixelix.API.Controllers;
 

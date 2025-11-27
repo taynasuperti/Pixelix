@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Pixelix.API.Migrations
 {
     /// <inheritdoc />
-    public partial class CriarEstruturaSprites : Migration
+    public partial class AddInitialSeeds : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -257,19 +257,19 @@ namespace Pixelix.API.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "0b44ca04-f6b0-4a8f-a953-1f2330d30894", null, "Administrador", "ADMINISTRADOR" },
-                    { "ddf093a6-6cb5-4ff7-9a64-83da34aee005", null, "Cliente", "CLIENTE" }
+                    { "ROLE-ADMIN-0001", null, "Administrador", "ADMINISTRADOR" },
+                    { "ROLE-CLIENT-0001", null, "Cliente", "CLIENTE" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "DataNascimento", "Email", "EmailConfirmed", "Foto", "LockoutEnabled", "LockoutEnd", "Nome", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "ddf093a6-6cb5-4ff7-9a64-83da34aee005", 0, "d733cab8-c493-4a26-900f-95603de5037f", new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified), "taynasuperti@gmail.com", true, "/img/usuarios/avatar.png", true, null, "Tayná Carolina Miguel Superti", "TAYNASUPERTI@GMAIL.COM", "TAYNASUPERTI@GMAIL.COM", "AQAAAAIAAYagAAAAECtgZwlHcghcQxQ5IgQbFg5MzRKvHKkRX9lxNdQu8w0a5ievHrk6C54JNxiDvHKFGg==", null, false, "74a8f4b6-6b3f-436a-b391-df608ca4dd04", false, "taynasuperti@gmail.com" });
+                values: new object[] { "USER-ADMIN-0001", 0, "e62708f7-5aa6-4f92-9a4c-7065bb1a1730", new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified), "taynasuperti@gmail.com", true, "/img/usuarios/avatar.png", true, null, "Tayná Carolina Miguel Superti", "TAYNASUPERTI@GMAIL.COM", "TAYNASUPERTI@GMAIL.COM", "AQAAAAIAAYagAAAAEOGZakC56lxEot9dXFdC2DlxIvG1qHrswwz6iZ7AiqePPst+SFgwOFIOb0/7mMArAg==", null, false, "8063fb95-8c68-40c9-ae82-1f45608f571c", false, "taynasuperti@gmail.com" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "0b44ca04-f6b0-4a8f-a953-1f2330d30894", "ddf093a6-6cb5-4ff7-9a64-83da34aee005" });
+                values: new object[] { "ROLE-ADMIN-0001", "USER-ADMIN-0001" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

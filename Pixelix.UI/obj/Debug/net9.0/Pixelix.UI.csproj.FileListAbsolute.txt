@@ -99,4 +99,4 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\r
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
-C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-9mmv3ir2z0.gz
+C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-g518wti1cm.gz
