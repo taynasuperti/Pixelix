@@ -25,10 +25,9 @@ body {
 }
 
 .active-link {
-    color: var(--px-purple-light) !important;
-    text-shadow: 0px 0px 4px #00000055;
+  color: var(--px-purple-light) !important;
+  text-shadow: 0px 0px 4px #00000055;
 }
-
 
 .pixelix-logo-img {
   height: 42px;
@@ -116,518 +115,178 @@ body {
   margin-top: 6px;
 }
 
-/* ----------------------------------------- */
-/* CARROSSEL FULL WIDTH */
-/* ----------------------------------------- */
-/* CARROSSEL FULL WIDTH */
-.home-carousel {
-  width: 100vw;
-  margin-left: calc(50% - 50vw); /* remove limite à esquerda */
-  padding: 0 !important;
-  overflow-x: hidden;
-}
-
+/* ---- CARRINHO - estilos conforme especificação ---- */ /* Container */
+.cart-items-list {
+} /* Título já usa .pixel-title global, cor ajustada inline no cshtml */
+.pixel-title-carrinho {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #2d004d;
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #693b8d, 2px -2px 0 #693b8d, -2px 2px 0 #693b8d,
+    2px 2px 0 #693b8d;
+} /* TITULO COM BORDA PIXELADA (igual ao SPRITES EM ALTA) */
 .pixel-title {
-  font-family: "Pixelify Sans", sans-serif; /* ou a fonte que você estiver usando */
-  color: #ffffff; /* cor do texto */
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #693b8d, 2px -2px 0 #693b8d, -2px 2px 0 #693b8d,
+    2px 2px 0 #693b8d;
+} /* Empty cart */
+.empty-cart-wrap {
+  padding: 40px 0;
   text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  padding: 0px 20px 15px;
-  border-radius: 15px;
-  background-color: #7350b07c;
-  /* contorno pixelado roxo */
-  text-shadow: -4px -4px 0 #6b2ca1, -4px 0px 0 #6b2ca1, -4px 4px 0 #6b2ca1,
-    0px -4px 0 #6b2ca1, 0px 4px 0 #6b2ca1, 4px -4px 0 #6b2ca1, 4px 0px 0 #6b2ca1,
-    4px 4px 0 #6b2ca1;
-}
-
-.carousel-img {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  display: block;
-}
-
-/* TÍTULO DO CARROSSEL (ESTILO PIXEL, IGUAL PROTÓTIPO) */
-.carousel-title {
-  position: absolute;
-  top: 70px;
-  left: 6%; /* -> movimenta levemente pra esquerda */
-  transform: translateX(0%);
-  z-index: 20;
-  font-weight: bold;
-  font-family: "Pixelify Sans", sans-serif;
-  font-size: 80px; /* maior */
-  line-height: 1.4;
-  text-align: center;
-  padding: 15px 25px;
-  background: none !important; /* remove qualquer fundo */
-  color: white;
-  text-shadow: -4px -4px 0 #6b2ca1, -4px 0px 0 #6b2ca1, -4px 4px 0 #6b2ca1,
-    0px -4px 0 #6b2ca1, 0px 4px 0 #6b2ca1, 4px -4px 0 #6b2ca1, 4px 0px 0 #6b2ca1,
-    4px 4px 0 #6b2ca1;
-}
-
-/* ----------------------------------------- */
-/* CARDS COM DESCONTO */
-/* ----------------------------------------- */
-.discount-card {
-  background-color: #693b8d;
-  border: 3px solid #3f1662;
-  border-radius: 15px;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-.discount-img-wrapper img {
-  width: 100%;
-  border-radius: 15px;
-  border: 3px solid #3f1662;
-}
-
-.discount-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #3f1662;
-  color: white;
-  font-weight: bold;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 14px;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-.discount-btn {
-  background-color: #3f1662;
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-/* ----------------------------------------- */
-/* SPRITES EM ALTA */
-/* ----------------------------------------- */
-.sprites-em-alta-title {
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  padding: 0px 20px 15px;
-  border-radius: 15px;
-  border: 4px solid #9456c4;
-  background-color: #9456c4;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-
-/* HOVER GERAL PARA CARDS */
-.discount-card{
-    transition: transform 0.2s ease, filter 0.2s ease;
-    cursor: pointer;
-}
-
-.discount-card:hover {
-    transform: translateY(-4px) scale(1.03);
-    filter: brightness(1.08);
-}
-
-/* HOVER PARA OS CARDS DE SPRITES EM ALTA */
-.hot-card {
-    transition: transform 0.2s ease;
-    cursor: pointer;
-}
-
-.hot-card:hover {
-    transform: translateY(-4px) scale(1.03);
-}
-
-
-
-/* ----------------------------------------- */
-/* CARDS - SPRITES EM ALTA */
-/* ----------------------------------------- */
-.hot-card {
-  background-color: #ecd4ff;
-  border-radius: 15px;
-  padding: 10px;
-}
-
-.hot-img {
-  width: 100%;
-  border-radius: 15px;
-  border: 6px solid #3f1662;
-}
-
-.hot-price-tag {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  background-color: #693b8d;
-  border: 2px solid #3f1662;
-  color: white;
-  font-weight: bold;
-  padding: 5px 10px;
-  font-size: 14px;
-  border-radius: 10px;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-.hot-card-title {
-  margin-top: 10px;
-  color: #000000;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "Pixelify Sans", sans-serif;
-}
-
-/* Fonte geral da página */
-.sobre-texto,
-.pixel-title {
-    font-family: "Pixelify Sans", sans-serif;
-    color: #2d004d;
-}
-
-/* TITULO COM BORDA PIXELADA (igual ao SPRITES EM ALTA) */
-.pixel-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #ffffff;
-    text-shadow:
-        -2px -2px 0 #693B8D,
-        2px -2px 0 #693B8D,
-        -2px 2px 0 #693B8D,
-        2px 2px 0 #693B8D;
-}
-
-/* CARD DO TEXTO */
-.sobre-card {
-    background-color: #B898D0;
-    border: 6px solid #693B8D;
-    border-radius: 4px;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-/* FOTOS */
-.dev-img {
-    width: 100%;
-    max-width: 250px;
-    border: 6px solid #693B8D;
-    border-radius: 5px;
-}
-
-.nome {
-  color: #693B8D;
-  font-weight: 800;
-    text-shadow:
-        -2px -2px 0 #ffffff,
-        2px -2px 0 #ffffff,
-        -2px 2px 0 #ffffff,
-        2px 2px 0 #ffffff;
-}
-
-/* ÍCONES */
-.social-icons i {
-  font-size: 1.4rem;
-}
-
-.social-icons a {
-  color: white;
-  padding: 10px 12px;
-  border-radius: 10px;
-  background-color: var(--px-purple-light);
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-/* Hover apenas no ícone (igual aos cards) */
-.social-icons a:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.2);
-}
-
-/* --- Página de Registro --- */
-
-.register-container {
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.register-card {
-    margin: 30px !important;
-    max-width: 600px;
-    width: 100%;
-    padding: 2.5rem;
-    background-color: #B898D0;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px #00000040;
-    font-family: "Pixelify Sans", sans-serif;
-}
-
-.register-title {
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #3F1662;
-    text-shadow:
-        -2px -2px 0 #ffffff,
-        2px -2px 0 #ffffff,
-        -2px 2px 0 #ffffff,
-        2px 2px 0 #ffffff;
-}
-
-/* --- Promo card com ícone --- */
-.register-promo {
-    background-color: #7350b088;
-    border-radius: 6px;
-    padding: 0.75rem 1rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    color: white;
-    margin-bottom: 1.5rem;
-    width: 100%;
-    font-size: 1.1rem;
-}
-
-.register-promo i {
-    color: #ffffff; /* Ícone branco */
-    font-size: 22px;
-}
-
-/* Inputs alinhados com o tamanho do promo card */
-.register-input {
-    background-color: #7350b088;
-    border-radius: 6px;
-    border: none;
-    color: white;
-    padding: 0.8rem;
-    width: 100%; /* Agora fica exatamente do tamanho do cartão */
-    font-family: "Pixelify Sans", sans-serif;
-}
-
-.register-input::placeholder {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* Botão */
-.register-button {
-    background-color: #693B8D;
-    color: white;
-    width: 100%;
-    padding: 0.8rem;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 6px;
-    border: 3px solid #3F1662;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.register-button:hover {
-    background-color: #7a4ba8;
-}
-
-/* Texto login */
-.register-login-text {
-    text-align: center;
-    margin-top: 1.5rem;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-}
-
-.register-login-link {
-    color: #3F1662;
-    text-decoration: underline;
-}
-
-.register-login-link:hover {
-    color: #240a41;
-}
-
-.password-wrapper {
-    position: relative;
-}
-
-.password-wrapper .password-toggle {
-    position: absolute;
-    right: 12px; /* agora fica à direita */
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-    cursor: pointer;
-    color: #ffffff; /* branco */
-}
-
-.password-wrapper .register-input {
-    padding-right: 45px !important; /* espaço para o ícone */
-}
-
-.sprite-filter-navbar {
-  background-color: #B898D0;
-  margin: 0px 0px 30px;
-  padding: 10px 0px !important;
-}
-
-/* === BOTÃO HAMBURGUER FIXO === */
-.filter-toggle-btn {
-    position: relative;
-    left: 20px;
-    z-index: 1100;
-    background-color: #66469c88;
-    color: white;
-    border: none;
-    padding: 10px 14px;
-    border-radius: 10px;
-    font-size: 1.6rem;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.filter-toggle-btn:hover {
-    transform: translateY(-2px);
-    filter: brightness(1.1);
-}
-
-/* === NAVBAR LATERAL === */
-.filter-sidebar {
-    position: fixed;
-    top: 0;
-    left: -320px; /* escondida fora da tela */
-    width: 300px;
-    height: 100vh;
-    background-color: #9456C4;
-    box-shadow: 4px 0 10px rgba(0,0,0,0.2);
-    z-index: 1090;
-    transition: left 0.3s ease-in-out;
-    overflow-y: auto;
-    padding: 20px;
-}
-
-.hidden {
-  display: none !important;
-}
-
-.close-filter-btn {
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.close-filter-btn:hover {
-  transform: scale(1.1);
-  filter: brightness(1.2);
-}
-
-
-
-
-.filter-sidebar.active {
-    left: 0; /* aparece na tela */
-}
-
-/* Conteúdo interno */
-.filter-title {
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--px-purple);
-    margin-bottom: 20px;
-    font-family: "Pixelify Sans", sans-serif;
-    text-shadow:
-        -2px -2px 0 #ffffff,
-        2px -2px 0 #ffffff,
-        -2px 2px 0 #ffffff,
-        2px 2px 0 #ffffff;
-}
-
-.filter-group {
-    margin-bottom: 20px;
-}
-
-.filter-category {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--px-purple-light);
-    margin-bottom: 8px;
-    font-family: "Pixelify Sans", sans-serif;
-}
-
-.filter-sublist {
-    list-style: none;
-    padding-left: 16px;
-}
-
-.filter-sublist li {
-    font-size: 16px;
-    color: #3f1662;
-    margin-bottom: 6px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.filter-sublist li:hover {
-    color: var(--px-purple-light);
-    font-weight: bold;
-}
-
-.mais-categorias-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--px-purple-light);
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px 16px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-family: "Pixelify Sans", sans-serif;
-  transition: 0.2s;
-}
-
-.mais-categorias-btn:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.1);
-}
-
-.mais-categorias-btn i {
-  font-size: 1.4rem;
-}
-
-.pixel-banner {
-  background-color: #7350b088; /* roxo escuro */
+} /* Card principal do item (fundo B898D0, border-radius 5px) */
+.cart-item-card {
+  background: #b898d0;
+  border-radius: 5px;
   padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  margin: 10px 40px 10px 40px !important;
-  box-shadow: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+} /* Imagem do produto com borda 693B8D e radius 5px */
+.cart-item-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 6px solid #693b8d;
+  background: #fff;
+} /* Nome do produto (cor #000 com text-shadow branco) */
+.cart-item-name {
+  color: #000000;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
+    2px 2px 0 #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 12px 0 8px 0;
+} /* Sobre o produto (texto branco com text-shadow preto) */
+.about-product-title {
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000,
+    2px 2px 0 #000000;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 12px 0 8px 0;
+} /* ícone redondo do lado (preto) */
+.about-icon {
+  color: #000000;
+  font-size: 20px;
+  margin: 12px 0 8px 0;
+} /* lista de dados do produto */
+.about-list {
+  color: #000000;
+  margin: 0 0 6px 0;
+  padding-left: 18px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #000;
+} /* formato com ícone e texto (mesma formatação do sobre o produto) */
+.title-format {
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000,
+    2px 2px 0 #000000;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 12px 0 8px 0;
 }
-
-.pixel-banner-text {
-  font-family: "Pixelify Sans", sans-serif;
+.text-format {
+  font-weight: 800;
+  font-size: 18px;
+  color: #000;
+} /* preço */
+.cart-item-price {
+  font-weight: 800;
+  font-size: 18px;
+  color: #000;
+} /* botão remover */
+.btn-remove {
+  background: #693b8d;
+  border: 3px solid #3f1662;
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 18px;
+} /* Resumo da compra */
+.payment-options .payment-row input[type="radio"] {
+  accent-color: #693b8d;
+  width: 18px;
+  height: 18px;
+}
+.payment-row span {
+  font-weight: 800;
+  font-size: 18px;
+  color: #000;
+  margin-left: 8px;
+}
+.pixel-title-resumo {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #693b8d, 2px -2px 0 #693b8d, -2px 2px 0 #693b8d,
+    2px 2px 0 #693b8d;
+}
+.total-pay-text {
+  color: #ffffff;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000,
+    2px 2px 0 #000000;
+  font-weight: 700;
   font-size: 28px;
-  font-weight: bold;
-  color: #3F1662;
-  margin: 0;
-  line-height: 1.4;
-  text-shadow:
-      -2px -2px 0 #ffffff,
-      2px -2px 0 #ffffff,
-      -2px 2px 0 #ffffff,
-      2px 2px 0 #ffffff;
+  margin: 12px 0 8px 0;
+}
+.total-pay-card {
+  background: #b898d0;
+  border-radius: 5px;
+  align-items: center;
+} /* finalize button no card (cor #693B8D, borda #3F1662, radius 5px) */
+.finalize-btn {
+  background: #693b8d;
+  border: 3px solid #3f1662;
+  border-radius: 5px;
+  color: #fff;
+  padding: 12px 18px;
+  min-width: 110px;
+}
+.finalize-btn .small-text {
+  font-size: 12px;
+  opacity: 0.9;
+}
+.finalize-btn .big-text {
+  font-size: 16px;
+  font-weight: 900;
+} /* link adicionar mais itens */
+.add-more-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+} /* responsividade */
+@media (max-width: 768px) {
+  .cart-item-img {
+    width: 140px;
+    height: 140px;
+  }
+  .cart-item-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .total-pay-card {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
 }
 
+.about-format {
+    display: flex;
+    align-items: flex-start;
+}
 
+.form-remover {
+    margin: 0;
+    padding: 0;
+}
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pixelix.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16c8bf79bdbf88bda53de518e41fcc2bfbd3d454")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a41fe08ab1d04828f00d1f11a8865a5fded7f30")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pixelix.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pixelix.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

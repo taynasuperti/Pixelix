@@ -1,5 +1,8 @@
 @model Pixelix.UI.ViewModels.CarrinhoVM
-
+@{
+    ViewData["Title"] = "Carrinho";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 @{
     // cálculos
     var total = Model.Total;
@@ -116,12 +119,33 @@
 
 @section Scripts {
     <script>
-        // Comportamento simples: marcar radio e atualizar total visual (opcional)
+        // Controle dos radios (já existia)
         document.addEventListener('DOMContentLoaded', function () {
             const radios = document.querySelectorAll('input[name="paymentMethod"]');
             radios.forEach(r => r.addEventListener('change', function () {
-                // aqui você pode atualizar o valor exibido se quiser
+                // lógica opcional
             }));
+        });
+
+        // Remover card visualmente e testar carrinho vazio
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.querySelectorAll(".btn-remove").forEach(btn => {
+                btn.addEventListener("click", function (e) {
+                    const id = this.dataset.removeId;
+
+                    // Remove visual
+                    const card = document.getElementById("item-" + id);
+                    if (card) card.remove();
+
+                    // Se acabou os cards → mostra "carrinho vazio"
+                    if (document.querySelectorAll(".cart-item-card").length === 0) {
+                        const emptyMsg = document.querySelector(".empty-cart-wrap");
+                        if (emptyMsg) emptyMsg.style.display = "block";
+                    }
+                });
+            });
+
         });
     </script>
 }
