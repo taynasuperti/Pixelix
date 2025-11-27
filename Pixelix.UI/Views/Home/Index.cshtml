@@ -1,4 +1,7 @@
-﻿@{
+﻿@using System.Linq
+@model Pixelix.UI.ViewModels.HomeVM
+
+@{
     ViewData["Title"] = "Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -33,82 +36,67 @@
 
 <div class="container mt-5">
 
-    <!-- CARDS DESCONTO -->
-    <div class="row mt-4 g-4">
-        <div class="col-md-4">
-            <div class="discount-card p-3 position-relative">
-                <span class="discount-badge">80% OFF</span>
-                <div class="discount-img-wrapper">
-                    <img src="~/img/sprites-teste.jpg" />
-                </div>
-                <h5 class="text-white mt-3 fw-bold">Pacote de Cenários 2D
-   Floresta Encantada </h5>
-                <button class="discount-btn mt-2 w-100">VER MAIS</button>
-            </div>
-        </div>
+ <!-- CARDS DESCONTO - AGORA DINÂMICOS -->
+<div class="row mt-4 g-4">
 
+    @foreach (var produto in Model.ProdutosDestaque)
+    {
         <div class="col-md-4">
             <div class="discount-card p-3 position-relative">
-                <span class="discount-badge">80% OFF</span>
-                <div class="discount-img-wrapper">
-                    <img src="~/img/sprites-teste.jpg" />
-                </div>
-                <h5 class="text-white mt-3 fw-bold">Pacote de  sprites 2D 
-          Personagens Diversificados</h5>
-                <button class="discount-btn mt-2 w-100">VER MAIS</button>
-            </div>
-        </div>
 
-        <div class="col-md-4">
-            <div class="discount-card p-3 position-relative">
                 <span class="discount-badge">80% OFF</span>
+
                 <div class="discount-img-wrapper">
-                    <img src="~/img/sprites-teste.jpg" />
+                    <img src="@produto.Foto" />
                 </div>
-                <h5 class="text-white mt-3 fw-bold">Pacote com sprites de 
-        personagens 2D Diversificados</h5>
+
+                <h5 class="text-white mt-3 fw-bold">
+                    @produto.Nome
+                </h5>
+
                 <button class="discount-btn mt-2 w-100">VER MAIS</button>
             </div>
         </div>
-    </div>
+    }
+
+    @* Caso não tenha nenhum produto *@
+    @if (!Model.ProdutosDestaque.Any())
+    {
+        <p class="text-white">Nenhum produto em destaque encontrado.</p>
+    }
+</div>
+
 
     <!-- SPRITES EM ALTA -->
     <div class="pixel-title mt-5">SPRITES EM ALTA</div>
 
     <!-- CARDS HOT -->
-    <div class="row g-4 mt-3">
-        <div class="col-md-4">
-            <div class="hot-card">
-                <div class="position-relative">
-                    <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                    <span class="hot-price-tag">R$ 240,00</span>
-                </div>
-                <p class="hot-card-title">Diversidade de pássaros 2D 
-1.300 sprites para o  seu jogo </p>
-            </div>
-        </div>
+<div class="row g-4 mt-3">
 
+    @foreach (var produto in Model.ProdutosDestaque.Take(3))
+    {
         <div class="col-md-4">
             <div class="hot-card">
                 <div class="position-relative">
-                    <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                    <span class="hot-price-tag">R$ 120,99</span>
-                </div>
-                <p class="hot-card-title">Doces e guloseimas 2D + de 130 
-sprites deliciosos!</p>
-            </div>
-        </div>
 
-        <div class="col-md-4">
-            <div class="hot-card">
-                <div class="position-relative">
-                    <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                    <span class="hot-price-tag">R$ 98,90</span>
+                    <img src="@produto.Foto" class="hot-img" />
+
+                    <span class="hot-price-tag">
+                        @produto.ValorVenda.ToString("C")
+                    </span>
                 </div>
-                <p class="hot-card-title">Espadas personalizadas para
-jogos 2D </p>
+
+                <p class="hot-card-title">
+                    @produto.Nome
+                </p>
             </div>
         </div>
-    </div>
+    }
+
+    @if (!Model.ProdutosDestaque.Any())
+    {
+        <p class="text-white">Nenhum sprite em alta no momento.</p>
+    }
+</div>
 
 </div>

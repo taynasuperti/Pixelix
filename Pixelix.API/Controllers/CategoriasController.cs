@@ -4,8 +4,6 @@ using Pixelix.API.Data;
 using Pixelix.API.DTOs;
 using Pixelix.API.Models;
 using Pixelix.API.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
-
 
 namespace Pixelix.API.Controllers;
 
@@ -63,63 +61,91 @@ public class CategoriasController : ControllerBase
     // PUT: api/Categorias/5
     [HttpPut("{id}")]
     [Consumes("multipart/form-data")]
-public async Task<IActionResult> PutCategoria(int id, [FromForm] CategoriaDto categoriaDto)
-{
-    if (id != categoriaDto.Id)
-        return BadRequest("ID da URL não corresponde ao ID enviado.");
-
-    var categoria = await _context.Categorias.FindAsync(id);
-    if (categoria == null)
-        return NotFound();
-
-    categoria.Nome = categoriaDto.Nome;
-    categoria.Cor = categoriaDto.Cor;
-
-    if (categoriaDto.FotoUpload != null && categoriaDto.FotoUpload.Length > 0)
+    public async Task<IActionResult> PutCategoria(int id, [FromForm] CategoriaUpdateDto categoriaDto)
     {
+        if (id != categoriaDto.Id)
+        {
+            return BadRequest();
+        }
+
+        var categoria = await _context.Categorias.FindAsync(id);
+        if (categoria == null)
+        {
+            return NotFound();
+        }
+
+        // Atualizar propriedades básicas
+        categoria.Nome = categoriaDto.Nome;
+        categoria.Cor = categoriaDto.Cor;
+
+        // Processar nova foto se fornecida
+        if (categoriaDto.Foto != null && categoriaDto.Foto.Length > 0)
+        {
+            // Deletar foto antiga se existir
+            if (!string.IsNullOrEmpty(categoria.Foto))
+            {
+                await _fileService.DeleteFileAsync(categoria.Foto);
+            }
+
+            // Salvar nova foto
+            categoria.Foto = await _fileService.SaveFileAsync(categoriaDto.Foto, "img\\categorias");
+        }
+
+        _context.Entry(categoria).State = EntityState.Modified;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!CategoriaExists(id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        // Retornar categoria com URL completa
         if (!string.IsNullOrEmpty(categoria.Foto))
-            await _fileService.DeleteFileAsync(categoria.Foto);
+        {
+            categoria.Foto = _fileService.GetFileUrl(categoria.Foto);
+        }
 
-        categoria.Foto = await _fileService.SaveFileAsync(categoriaDto.FotoUpload, "img/categorias");
+        return Ok(categoria);
     }
-
-    await _context.SaveChangesAsync();
-
-    categoriaDto.FotoUrl = !string.IsNullOrEmpty(categoria.Foto)
-        ? _fileService.GetFileUrl(categoria.Foto)
-        : null;
-
-    return Ok(categoriaDto);
-}
-
 
     // POST: api/Categorias
-[HttpPost]
-[Consumes("multipart/form-data")]
-public async Task<ActionResult<Categoria>> PostCategoria([FromForm] CategoriaDto categoriaDto)
-{
-    var categoria = new Categoria
+    [HttpPost]
+    [Consumes("multipart/form-data")]
+    public async Task<ActionResult<Categoria>> PostCategoria([FromForm] CategoriaCreateDto categoriaDto)
     {
-        Nome = categoriaDto.Nome,
-        Cor = categoriaDto.Cor
-    };
+        var categoria = new Categoria
+        {
+            Nome = categoriaDto.Nome,
+            Cor = categoriaDto.Cor ?? "rgba(0,0,0,1)"
+        };
 
-    if (categoriaDto.FotoUpload != null && categoriaDto.FotoUpload.Length > 0)
-    {
-        categoria.Foto = await _fileService.SaveFileAsync(categoriaDto.FotoUpload, "img/categorias");
+        // Salvar foto se fornecida
+        if (categoriaDto.Foto != null && categoriaDto.Foto.Length > 0)
+        {
+            categoria.Foto = await _fileService.SaveFileAsync(categoriaDto.Foto, "img\\categorias");
+        }
+
+        _context.Categorias.Add(categoria);
+        await _context.SaveChangesAsync();
+
+        // Retornar categoria com URL completa
+        if (!string.IsNullOrEmpty(categoria.Foto))
+        {
+            categoria.Foto = _fileService.GetFileUrl(categoria.Foto);
+        }
+
+        return CreatedAtAction("GetCategoria", new { id = categoria.Id }, categoria);
     }
-
-    _context.Categorias.Add(categoria);
-    await _context.SaveChangesAsync();
-
-    categoriaDto.Id = categoria.Id;
-    categoriaDto.FotoUrl = !string.IsNullOrEmpty(categoria.Foto)
-        ? _fileService.GetFileUrl(categoria.Foto)
-        : null;
-
-    return CreatedAtAction("GetCategoria", new { id = categoria.Id }, categoriaDto);
-}
-
 
     // DELETE: api/Categorias/5
     [HttpDelete("{id}")]

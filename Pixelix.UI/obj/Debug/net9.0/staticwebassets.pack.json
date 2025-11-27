@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Pixelix.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Pixelix.UI.scas0d43wv.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\carrossel\\carrossel-teste.jpg",
+      "PackagePath": "staticwebassets\\img\\carrossel\\carrossel-teste.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\animais\\1\\pack-fazendinha.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\1\\pack-fazendinha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\animais\\2\\pack-gatinhos.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\2\\pack-gatinhos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\animais\\3\\pack-passaros.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\3\\pack-passaros.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\animais\\4\\pack-silvestre.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\4\\pack-silvestre.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\blocos\\1\\pack-blocoflores.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\1\\pack-blocoflores.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\blocos\\2\\pack-blocoselementos.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\2\\pack-blocoselementos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\blocos\\3\\pack-blocosgrama.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\3\\pack-blocosgrama.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\blocos\\4\\portal.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\4\\portal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\cenarios\\1\\cenario-coinquest.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\1\\cenario-coinquest.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\cenarios\\2\\cenario-horadeaventura.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\2\\cenario-horadeaventura.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\cenarios\\3\\cenario-mysteryhack.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\3\\cenario-mysteryhack.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\comidas\\1\\pack-comidas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\comidas\\1\\pack-comidas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\comidas\\2\\pack-doces.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\comidas\\2\\pack-doces.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\itens\\1\\pack-pocoes.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\itens\\1\\pack-pocoes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\1\\fadinha-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\1\\fadinha-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\1\\pack-fadinha.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\1\\pack-fadinha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\2\\globin-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\2\\globin-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\2\\pack-globin.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\2\\pack-globin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\3\\mago-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\3\\mago-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\3\\pack-mago.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\3\\pack-mago.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\4\\menina-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\4\\menina-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\4\\pack-menina.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\4\\pack-menina.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\5\\menino-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\5\\menino-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\5\\pack-menino.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\5\\pack-menino.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\6\\pack-vilao.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\6\\pack-vilao.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\6\\vilao-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\6\\vilao-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\7\\pack-bruxas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\7\\pack-bruxas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\categorias\\personagens\\8\\pack-fadinhas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\8\\pack-fadinhas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\lorrany-v1.jpg",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\lorrany-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\tayna-v1.jpg",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\tayna-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\logo\\pixelix-logo.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo\\pixelix-logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\sprites-teste.jpg",
+      "PackagePath": "staticwebassets\\img\\sprites-teste.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pixelix.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pixelix.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Pixelix.UI.props",
+      "PackagePath": "build\\Pixelix.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Pixelix.UI.props",
+      "PackagePath": "buildMultiTargeting\\Pixelix.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Pixelix.UI.props",
+      "PackagePath": "buildTransitive\\Pixelix.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

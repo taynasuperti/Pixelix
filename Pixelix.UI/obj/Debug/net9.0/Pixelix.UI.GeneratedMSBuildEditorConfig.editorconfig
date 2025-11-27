@@ -9,117 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pixelix.UI
 build_property.RootNamespace = Pixelix.UI
-build_property.ProjectDir = C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\
+build_property.ProjectDir = C:\Users\etec\Desktop\Pixelix\Pixelix.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI
+build_property.MSBuildProjectDirectory = C:\Users\etec\Desktop\Pixelix\Pixelix.UI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Admin/Index.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Auth/AcessoNegado.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Auth/AcessoNegado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Vzc29OZWdhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Auth/Login.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Auth/RecuperarSenha.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Auth/RecuperarSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWN1cGVyYXJTZW5oYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Auth/Registro.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Auth/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Create.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Delete.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Details.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Edit.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Index.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Home/Index.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Home/Sobre.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Home/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Home/Sprites.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Home/Sprites.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcHJpdGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Carrinho.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Carrinho.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FycmluaG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Create.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Delete.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Details.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Edit.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Index.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Shared/Error.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/_ViewImports.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/_ViewStart.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tayna/OneDrive/Documentos/Desktop/Pixelix/Pixelix.UI/Views/Shared/_Layout.cshtml]
+[C:/Users/etec/Desktop/Pixelix/Pixelix.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vju930fezq

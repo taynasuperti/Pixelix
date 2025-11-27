@@ -10,7 +10,7 @@ public class MappingConfig : Profile
     {
         // Mapeamento para Categorias 
         CreateMap<CategoriaDto, CategoriaVM>()
-            .ForMember(dest => dest.FotoUrl, opt => opt.MapFrom(src => src.Foto))
+            .ForMember(dest => dest.Foto, opt => opt.MapFrom(src => src.Foto))
             .ForMember(dest => dest.Foto, opt => opt.Ignore());
 
         CreateMap<CategoriaVM, CategoriaDto>()
@@ -18,7 +18,7 @@ public class MappingConfig : Profile
 
         // Mapeamento para Produtos
         CreateMap<ProdutoDto, ProdutoVM>()
-            .ForMember(dest => dest.FotoUrl, opt => opt.MapFrom(src => src.Foto))
+            .ForMember(dest => dest.Foto, opt => opt.MapFrom(src => src.Foto))
             .ForMember(dest => dest.Foto, opt => opt.Ignore());
 
         CreateMap<ProdutoVM, ProdutoDto>()

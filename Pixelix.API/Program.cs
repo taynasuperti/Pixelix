@@ -263,7 +263,7 @@ if (app.Environment.IsDevelopment())
 
     { 
 
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "<NOME DO PROJETO> v1"); 
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pixelix API v1"); 
 
         c.RoutePrefix = string.Empty; 
 

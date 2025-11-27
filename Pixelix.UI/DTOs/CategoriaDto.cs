@@ -8,11 +8,11 @@ public class CategoriaDto
     public int Id { get; set; }
 
     [JsonPropertyName("nome")]
-    public string Nome { get; set; } = string.Empty;
+    public string Nome { get; set; }
 
     [JsonPropertyName("foto")]
-    public string Foto { get; set; } = string.Empty;
+    public string? Foto { get; set; }   // <<< PRECISA SER NULLABLE!
 
     [JsonPropertyName("cor")]
-    public string Cor { get; set; } = "rgba(0,0,0,1)";
+    public string? Cor { get; set; }    // <<< TAMBÉM NULLABLE
 }

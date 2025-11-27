@@ -1,21 +1,22 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Pixelix.API.Models;
 
 [Table("Categoria")]
 public class Categoria
 {
+
     [Key]
     public int Id { get; set; }
-    [Required(ErrorMessage = "Por favor, informe o Nome")]
-    [StringLength(50, ErrorMessage = "O Nome deve possuir no máximo 50 carácteres")]
+
+    [Required]
+    [StringLength(50)]
     public string Nome { get; set; }
 
-    [StringLength(200)]
+    [StringLength(300)]
     public string Foto { get; set; }
 
-    // colocar cor na categoria
-
-    [StringLength(20, ErrorMessage = "A cor deve ter no máximo 20 caracteres")]
-    public string Cor { get; set; }
+    [StringLength(26)]
+    public string Cor { get; set; } = "rgba(0,0,0,1)";
 }

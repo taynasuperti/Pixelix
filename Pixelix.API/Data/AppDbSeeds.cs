@@ -72,7 +72,7 @@ public static class AppDbSeeds
                 Qtde = 10,
                 ValorCusto = 0m,
                 ValorVenda = 5.99m,
-                Destaque = true,
+                Destaque = false,
                 Foto = "/img/categorias/animais/4/pack/silvestre.jpeg"
             },
             // blocos
