@@ -13,6 +13,7 @@ using Microsoft.OpenApi.Models;
  
 
 var builder = WebApplication.CreateBuilder(args); 
+builder.Services.AddDistributedMemoryCache();
 
 // Add services to the container. 
 
