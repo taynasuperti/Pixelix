@@ -45,41 +45,28 @@
 <!-- Cards dos sprites -->
 <div class="container">
     <div class="row g-4 mt-3">
+@foreach (var produto in Model.Produtos)
+    {
         <div class="col-md-4">
-            <a asp-controller="Sprites" asp-action="Detalhes" asp-route-id="1" class="text-decoration-none">
-                <div class="hot-card">
-                    <div class="position-relative">
-                        <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                        <span class="hot-price-tag">R$ 240,00</span>
-                    </div>
-                    <p class="hot-card-title">Diversidade de pássaros 2D<br>1.300 sprites para o seu jogo</p>
-                </div>
-            </a>
-        </div>
+            <div class="discount-card p-3 position-relative">
 
-        <div class="col-md-4">
-            <a asp-controller="Sprites" asp-action="Detalhes" asp-route-id="2" class="text-decoration-none">
-                <div class="hot-card">
-                    <div class="position-relative">
-                        <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                        <span class="hot-price-tag">R$ 120,99</span>
-                    </div>
-                    <p class="hot-card-title">Doces e guloseimas 2D<br>+ de 130 sprites deliciosos!</p>
-                </div>
-            </a>
-        </div>
+                <span class="discount-badge">80% OFF</span>
 
-        <div class="col-md-4">
-            <a asp-controller="Sprites" asp-action="Detalhes" asp-route-id="3" class="text-decoration-none">
-                <div class="hot-card">
-                    <div class="position-relative">
-                        <img src="~/img/sprites-teste.jpg" class="hot-img" />
-                        <span class="hot-price-tag">R$ 98,90</span>
-                    </div>
-                    <p class="hot-card-title">Espadas personalizadas para<br>jogos 2D</p>
+                <div class="discount-img-wrapper">
+                    <img src="@produto.Foto" />
                 </div>
-            </a>
+
+                <h5 class="text-white mt-3 fw-bold">
+                    @produto.Nome
+                </h5>
+
+                <button class="discount-btn mt-2 w-100" asp-controller="Sprites" asp-action="Detalhes" asp-route-id="@produto.Id">VER MAIS</button>
+            </div>
         </div>
+    }            
+    </div>
+
+        
     </div>
 </div>
 

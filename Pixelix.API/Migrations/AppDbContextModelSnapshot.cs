@@ -50,13 +50,13 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ROLE-ADMIN-0001",
+                            Id = "0b44ca04-f6b0-4a8f-a953-1f2330d30894",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "ROLE-CLIENT-0001",
+                            Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                             Name = "Cliente",
                             NormalizedName = "CLIENTE"
                         });
@@ -151,8 +151,8 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "USER-ADMIN-0001",
-                            RoleId = "ROLE-ADMIN-0001"
+                            UserId = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
+                            RoleId = "0b44ca04-f6b0-4a8f-a953-1f2330d30894"
                         });
                 });
 
@@ -199,6 +199,38 @@ namespace Pixelix.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categoria");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nome = "Animais"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nome = "Blocos"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nome = "Cenários"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nome = "Comidas"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Nome = "Itens"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Nome = "Personagens"
+                        });
                 });
 
             modelBuilder.Entity("Pixelix.API.Models.Produto", b =>
@@ -242,6 +274,272 @@ namespace Pixelix.API.Migrations
                     b.HasIndex("CategoriaId");
 
                     b.ToTable("Produto");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoriaId = 1,
+                            Descricao = "Pack de animais para montar sua fazendinha em pixel art.",
+                            Destaque = true,
+                            Foto = "/img/categorias/animais/1/pack-fazendinha.jpeg",
+                            Nome = "Pack Fazendinha",
+                            Qtde = 10,
+                            ValorCusto = 0m,
+                            ValorVenda = 5.99m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoriaId = 1,
+                            Descricao = "Pack de gatinhos fofinhos em pixel art.",
+                            Destaque = true,
+                            Foto = "/img/categorias/animais/2/pack-gatinhos.jpeg",
+                            Nome = "Pack Gatinhos",
+                            Qtde = 10,
+                            ValorCusto = 0m,
+                            ValorVenda = 5.99m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoriaId = 1,
+                            Descricao = "Pack de passarinhos em pixel art.",
+                            Destaque = true,
+                            Foto = "/img/categorias/animais/3/pack-passaros.jpeg",
+                            Nome = "Pack Pássaros",
+                            Qtde = 10,
+                            ValorCusto = 0m,
+                            ValorVenda = 5.99m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoriaId = 1,
+                            Descricao = "Pack de animais silvestres em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/animais/4/pack/silvestre.jpeg",
+                            Nome = "Pack de Animais Silvestres",
+                            Qtde = 10,
+                            ValorCusto = 0m,
+                            ValorVenda = 5.99m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoriaId = 2,
+                            Descricao = "Pack de diversas flores em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/blocos/1/pack-blocoflores.jpeg",
+                            Nome = "Pack de Blocos de Flores",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoriaId = 2,
+                            Descricao = "Pack de blocos de elementos em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/blocos/2/pack-blocoseslementos.jpeg",
+                            Nome = "Pack de Blocos e Elementos",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CategoriaId = 2,
+                            Descricao = "Pack de grama em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/blocos/3/pack-blocosgrama.jpeg",
+                            Nome = "Pack de Blocos de Grama",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CategoriaId = 2,
+                            Descricao = "Sprite de portal mágico para seu jogo.",
+                            Destaque = false,
+                            Foto = "/img/categorias/blocos/4/portal.jpeg",
+                            Nome = "Portal Mágico",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 9,
+                            CategoriaId = 3,
+                            Descricao = "Cenário em pixel art do jogo CoinQuest.",
+                            Destaque = false,
+                            Foto = "/img/categorias/cenarios/1/cenario-coinquest.jpeg",
+                            Nome = "Cenário Completo CoinQuest",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CategoriaId = 3,
+                            Descricao = "Cenário em pixel art do desenho Hora de Aventura.",
+                            Destaque = false,
+                            Foto = "/img/categorias/cenarios/2/cenario-horadeaventura.jpeg",
+                            Nome = "Cenário Completo de Hora de Aventura",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CategoriaId = 3,
+                            Descricao = "Cenário em pixel art do desenho Mystery Hack.",
+                            Destaque = false,
+                            Foto = "/img/categorias/cenarios/3/cenario-mysteryhack.jpeg",
+                            Nome = "Cenário Completo de Mystery Hack",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 12,
+                            CategoriaId = 4,
+                            Descricao = "Pack de comidas 2D + de 130 sprites deliciosos!.",
+                            Destaque = false,
+                            Foto = "/img/categorias/comidas/1/pack-comidas.jpeg",
+                            Nome = "Pack de Comidas Diversas",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 13,
+                            CategoriaId = 4,
+                            Descricao = "Pack de doces e sobremesas 2D + de 130 sprites deliciosos!.",
+                            Destaque = false,
+                            Foto = "/img/categorias/comidas/2/pack-doces.jpeg",
+                            Nome = "Pack de Doces Diversos",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 14,
+                            CategoriaId = 5,
+                            Descricao = "Pack de poções mágicas em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/itens/1/pack-pocoes.jpeg",
+                            Nome = "Pack de Poções",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 15,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem fada em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/1/fadinha-frente.jpeg",
+                            Nome = "Pack de Fadinha",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 16,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem globin em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/2/globin-frente.jpeg",
+                            Nome = "Pack de Globin",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 17,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem mago em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/3/mago-frente.jpeg",
+                            Nome = "Pack de Mago",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 18,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem feminina em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/4/menina-frente.jpeg",
+                            Nome = "Pack de Personagem Feminina",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 19,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem masculino em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/5/menino-frente.jpeg",
+                            Nome = "Pack de Personagem Masculino",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 20,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem vilão em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/6/vilao-frente.jpeg",
+                            Nome = "Pack de Vilão",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem bruxa em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/7/pack-bruxas.jpeg",
+                            Nome = "Pack Bruxa Pixel Art",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        },
+                        new
+                        {
+                            Id = 22,
+                            CategoriaId = 6,
+                            Descricao = "Pack de personagem fadinhas em pixel art.",
+                            Destaque = false,
+                            Foto = "/img/categorias/personagens/8/pack-fadinhas.jpeg",
+                            Nome = "Pack Fadinhas Pixel Art",
+                            Qtde = 5,
+                            ValorCusto = 0m,
+                            ValorVenda = 8.99m
+                        });
                 });
 
             modelBuilder.Entity("Pixelix.API.Models.Usuario", b =>
@@ -322,9 +620,9 @@ namespace Pixelix.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "USER-ADMIN-0001",
+                            Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fa08593b-2b85-4809-9d83-0091b812edff",
+                            ConcurrencyStamp = "e679a0ba-4522-4824-b172-9b62b993c126",
                             DataNascimento = new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "taynasuperti@gmail.com",
                             EmailConfirmed = true,
@@ -333,9 +631,9 @@ namespace Pixelix.API.Migrations
                             Nome = "Tayná Carolina Miguel Superti",
                             NormalizedEmail = "TAYNASUPERTI@GMAIL.COM",
                             NormalizedUserName = "TAYNASUPERTI@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMAMGGrLTHEdwu7nM00j92tWxm6mAvrQ8NUWxsmyuqbKIBmlVnV67eZJQyMX/dhXTA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMJvVcRjKBfMnatcEgG4k3eroRazNuSeyTeGeI8f+2XH0bGlhETfIMHf8EJPgpOMNA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8c6e39a3-e2f2-4d70-ac1a-74c46091e95a",
+                            SecurityStamp = "8f4e1b60-7626-4ab8-8ffb-d50bd867b117",
                             TwoFactorEnabled = false,
                             UserName = "taynasuperti@gmail.com"
                         });

@@ -559,7 +559,7 @@ body {
 .filter-category {
     font-size: 20px;
     font-weight: bold;
-    color: var(--px-purple-light);
+    color: #ffffff;
     margin-bottom: 8px;
     font-family: "Pixelify Sans", sans-serif;
 }
