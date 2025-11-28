@@ -99,7 +99,6 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\r
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
-C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-g518wti1cm.gz
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\bin\Debug\net9.0\appsettings.json
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\bin\Debug\net9.0\Pixelix.UI.staticwebassets.runtime.json
@@ -203,3 +202,4 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\refint\Pixelix.UI.dll
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
+C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-jo7ifuaaew.gz

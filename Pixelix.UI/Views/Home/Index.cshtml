@@ -46,15 +46,24 @@
 
                 <span class="discount-badge">80% OFF</span>
 
-                <div class="discount-img-wrapper">
-                    <img src="@produto.Foto" />
-                </div>
+                <a asp-controller="Home"
+   asp-action="Detalhes"
+   asp-route-id="@produto.Id"
+   class="discount-img-wrapper">
+    <img src="@produto.Foto" />
+</a>
+
 
                 <h5 class="text-white mt-3 fw-bold">
                     @produto.Nome
                 </h5>
 
-                <button class="discount-btn mt-2 w-100">VER MAIS</button>
+                <a asp-controller="Home"
+                asp-action="Detalhes"
+                asp-route-id="@produto.Id"
+                class="discount-btn mt-2 w-100">
+                    VER MAIS
+                </a>
             </div>
         </div>
     }
@@ -79,13 +88,16 @@
             <div class="hot-card">
                 <div class="position-relative">
 
+                <a asp-controller="Home"
+                asp-action="Detalhes"
+                asp-route-id="@produto.Id">
                     <img src="@produto.Foto" class="hot-img" />
+                </a>
 
                     <span class="hot-price-tag">
                         @produto.ValorVenda.ToString("C")
                     </span>
                 </div>
-
                 <p class="hot-card-title">
                     @produto.Nome
                 </p>

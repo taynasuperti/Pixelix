@@ -57,7 +57,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
             LockoutEnabled = true,
             EmailConfirmed = true,
             Nome = "Tayná Carolina Miguel Superti",
-            DataNascimento = DateTime.Parse("06/11/2006"), // FIXO
+            DataNascimento = DateTime.Parse("06-11-2006"), // FIXO
             Foto = "/img/usuarios/avatar.png"
         }
     ];
@@ -111,8 +111,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de animais para montar sua fazendinha em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
-                ValorVenda = 5.99m,
-                Destaque = true,
+                ValorVenda = 205.99m,
+                Destaque = false,
                 Foto = "/img/categorias/animais/1/pack-fazendinha.jpeg"
             },
             new Produto
@@ -123,8 +123,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de gatinhos fofinhos em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
-                ValorVenda = 5.99m,
-                Destaque = true,
+                ValorVenda = 105.99m,
+                Destaque = false,
                 Foto = "/img/categorias/animais/2/pack-gatinhos.jpeg"
             },
             new Produto
@@ -135,8 +135,8 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de passarinhos em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
-                ValorVenda = 5.99m,
-                Destaque = true,
+                ValorVenda = 135.99m,
+                Destaque = false,
                 Foto = "/img/categorias/animais/3/pack-passaros.jpeg"
             },
             new Produto
@@ -147,9 +147,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de animais silvestres em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
-                ValorVenda = 5.99m,
+                ValorVenda = 105.99m,
                 Destaque = false,
-                Foto = "/img/categorias/animais/4/pack/silvestre.jpeg"
+                Foto = "/img/categorias/animais/4/pack-silvestre.jpeg"
             },
             // blocos
             new Produto
@@ -160,7 +160,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de diversas flores em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 80.99m,
                 Destaque = false,
                 Foto = "/img/categorias/blocos/1/pack-blocoflores.jpeg"
             },
@@ -172,9 +172,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de blocos de elementos em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 90.99m,
                 Destaque = false,
-                Foto = "/img/categorias/blocos/2/pack-blocoseslementos.jpeg"
+                Foto = "/img/categorias/blocos/2/pack-blocoselementos.jpeg"
             },
             new Produto
             {
@@ -184,7 +184,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de grama em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 80.99m,
                 Destaque = false,
                 Foto = "/img/categorias/blocos/3/pack-blocosgrama.jpeg"
             },
@@ -196,7 +196,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Sprite de portal mágico para seu jogo.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 180.99m,
                 Destaque = false,
                 Foto = "/img/categorias/blocos/4/portal.jpeg"
             },
@@ -209,7 +209,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Cenário em pixel art do jogo CoinQuest.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 250.99m,
                 Destaque = false,
                 Foto = "/img/categorias/cenarios/1/cenario-coinquest.jpeg"
             },
@@ -221,7 +221,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Cenário em pixel art do desenho Hora de Aventura.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 280.99m,
                 Destaque = false,
                 Foto = "/img/categorias/cenarios/2/cenario-horadeaventura.jpeg"
             },
@@ -233,7 +233,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Cenário em pixel art do desenho Mystery Hack.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 280.99m,
                 Destaque = false,
                 Foto = "/img/categorias/cenarios/3/cenario-mysteryhack.jpeg"
             },
@@ -246,7 +246,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de comidas 2D + de 130 sprites deliciosos!.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 120.99m,
                 Destaque = false,
                 Foto = "/img/categorias/comidas/1/pack-comidas.jpeg"
             },
@@ -258,7 +258,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de doces e sobremesas 2D + de 130 sprites deliciosos!.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 120.99m,
                 Destaque = false,
                 Foto = "/img/categorias/comidas/2/pack-doces.jpeg"
             },
@@ -271,7 +271,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de poções mágicas em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 115.99m,
                 Destaque = false,
                 Foto = "/img/categorias/itens/1/pack-pocoes.jpeg"
             },
@@ -284,9 +284,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem fada em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/1/fadinha-frente.jpeg"
+                ValorVenda = 180.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/1/pack-fadinha.jpeg"
             },
             new Produto
             {
@@ -296,9 +296,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem globin em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/2/globin-frente.jpeg"
+                ValorVenda = 180.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/2/pack-globin.jpeg"
             },
             new Produto
             {
@@ -308,9 +308,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem mago em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/3/mago-frente.jpeg"
+                ValorVenda = 180.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/3/pack-mago.jpeg"
             },
             new Produto
             {
@@ -320,9 +320,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem feminina em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/4/menina-frente.jpeg"
+                ValorVenda = 150.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/4/pack-menina.jpeg"
             },
             new Produto
             {
@@ -332,9 +332,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem masculino em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/5/menino-frente.jpeg"
+                ValorVenda = 150.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/5/pack-menino.jpeg"
             },
             new Produto
             {
@@ -344,9 +344,9 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem vilão em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
-                Destaque = false,
-                Foto = "/img/categorias/personagens/6/vilao-frente.jpeg"
+                ValorVenda = 180.99m,
+                Destaque = true,
+                Foto = "/img/categorias/personagens/6/pack-vilao.jpeg"
             },
             new Produto
             {
@@ -356,7 +356,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem bruxa em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 150.99m,
                 Destaque = false,
                 Foto = "/img/categorias/personagens/7/pack-bruxas.jpeg"
             },
@@ -368,7 +368,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de personagem fadinhas em pixel art.",
                 Qtde = 5,
                 ValorCusto = 0m,
-                ValorVenda = 8.99m,
+                ValorVenda = 150.99m,
                 Destaque = false,
                 Foto = "/img/categorias/personagens/8/pack-fadinhas.jpeg"
             }

@@ -281,36 +281,36 @@ namespace Pixelix.API.Migrations
                             Id = 1,
                             CategoriaId = 1,
                             Descricao = "Pack de animais para montar sua fazendinha em pixel art.",
-                            Destaque = true,
+                            Destaque = false,
                             Foto = "/img/categorias/animais/1/pack-fazendinha.jpeg",
                             Nome = "Pack Fazendinha",
                             Qtde = 10,
                             ValorCusto = 0m,
-                            ValorVenda = 5.99m
+                            ValorVenda = 205.99m
                         },
                         new
                         {
                             Id = 2,
                             CategoriaId = 1,
                             Descricao = "Pack de gatinhos fofinhos em pixel art.",
-                            Destaque = true,
+                            Destaque = false,
                             Foto = "/img/categorias/animais/2/pack-gatinhos.jpeg",
                             Nome = "Pack Gatinhos",
                             Qtde = 10,
                             ValorCusto = 0m,
-                            ValorVenda = 5.99m
+                            ValorVenda = 105.99m
                         },
                         new
                         {
                             Id = 3,
                             CategoriaId = 1,
                             Descricao = "Pack de passarinhos em pixel art.",
-                            Destaque = true,
+                            Destaque = false,
                             Foto = "/img/categorias/animais/3/pack-passaros.jpeg",
                             Nome = "Pack Pássaros",
                             Qtde = 10,
                             ValorCusto = 0m,
-                            ValorVenda = 5.99m
+                            ValorVenda = 135.99m
                         },
                         new
                         {
@@ -318,11 +318,11 @@ namespace Pixelix.API.Migrations
                             CategoriaId = 1,
                             Descricao = "Pack de animais silvestres em pixel art.",
                             Destaque = false,
-                            Foto = "/img/categorias/animais/4/pack/silvestre.jpeg",
+                            Foto = "/img/categorias/animais/4/pack-silvestre.jpeg",
                             Nome = "Pack de Animais Silvestres",
                             Qtde = 10,
                             ValorCusto = 0m,
-                            ValorVenda = 5.99m
+                            ValorVenda = 105.99m
                         },
                         new
                         {
@@ -334,7 +334,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack de Blocos de Flores",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 80.99m
                         },
                         new
                         {
@@ -342,11 +342,11 @@ namespace Pixelix.API.Migrations
                             CategoriaId = 2,
                             Descricao = "Pack de blocos de elementos em pixel art.",
                             Destaque = false,
-                            Foto = "/img/categorias/blocos/2/pack-blocoseslementos.jpeg",
+                            Foto = "/img/categorias/blocos/2/pack-blocoselementos.jpeg",
                             Nome = "Pack de Blocos e Elementos",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 90.99m
                         },
                         new
                         {
@@ -358,7 +358,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack de Blocos de Grama",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 80.99m
                         },
                         new
                         {
@@ -370,7 +370,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Portal Mágico",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 180.99m
                         },
                         new
                         {
@@ -382,7 +382,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Cenário Completo CoinQuest",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 250.99m
                         },
                         new
                         {
@@ -394,7 +394,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Cenário Completo de Hora de Aventura",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 280.99m
                         },
                         new
                         {
@@ -406,7 +406,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Cenário Completo de Mystery Hack",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 280.99m
                         },
                         new
                         {
@@ -418,7 +418,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack de Comidas Diversas",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 120.99m
                         },
                         new
                         {
@@ -430,7 +430,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack de Doces Diversos",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 120.99m
                         },
                         new
                         {
@@ -442,79 +442,79 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack de Poções",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 115.99m
                         },
                         new
                         {
                             Id = 15,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem fada em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/1/fadinha-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/1/pack-fadinha.jpeg",
                             Nome = "Pack de Fadinha",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 180.99m
                         },
                         new
                         {
                             Id = 16,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem globin em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/2/globin-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/2/pack-globin.jpeg",
                             Nome = "Pack de Globin",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 180.99m
                         },
                         new
                         {
                             Id = 17,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem mago em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/3/mago-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/3/pack-mago.jpeg",
                             Nome = "Pack de Mago",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 180.99m
                         },
                         new
                         {
                             Id = 18,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem feminina em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/4/menina-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/4/pack-menina.jpeg",
                             Nome = "Pack de Personagem Feminina",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 150.99m
                         },
                         new
                         {
                             Id = 19,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem masculino em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/5/menino-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/5/pack-menino.jpeg",
                             Nome = "Pack de Personagem Masculino",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 150.99m
                         },
                         new
                         {
                             Id = 20,
                             CategoriaId = 6,
                             Descricao = "Pack de personagem vilão em pixel art.",
-                            Destaque = false,
-                            Foto = "/img/categorias/personagens/6/vilao-frente.jpeg",
+                            Destaque = true,
+                            Foto = "/img/categorias/personagens/6/pack-vilao.jpeg",
                             Nome = "Pack de Vilão",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 180.99m
                         },
                         new
                         {
@@ -526,7 +526,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack Bruxa Pixel Art",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 150.99m
                         },
                         new
                         {
@@ -538,7 +538,7 @@ namespace Pixelix.API.Migrations
                             Nome = "Pack Fadinhas Pixel Art",
                             Qtde = 5,
                             ValorCusto = 0m,
-                            ValorVenda = 8.99m
+                            ValorVenda = 150.99m
                         });
                 });
 
@@ -622,7 +622,7 @@ namespace Pixelix.API.Migrations
                         {
                             Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e679a0ba-4522-4824-b172-9b62b993c126",
+                            ConcurrencyStamp = "1414c490-893f-44db-9f82-723c9a8b6110",
                             DataNascimento = new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "taynasuperti@gmail.com",
                             EmailConfirmed = true,
@@ -631,9 +631,9 @@ namespace Pixelix.API.Migrations
                             Nome = "Tayná Carolina Miguel Superti",
                             NormalizedEmail = "TAYNASUPERTI@GMAIL.COM",
                             NormalizedUserName = "TAYNASUPERTI@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMJvVcRjKBfMnatcEgG4k3eroRazNuSeyTeGeI8f+2XH0bGlhETfIMHf8EJPgpOMNA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEZtDE+yM4fGmYpFq35vCRb13MDyMkJOahiCu7uow35O67zdY0Zdv/ew98q67OtHFQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8f4e1b60-7626-4ab8-8ffb-d50bd867b117",
+                            SecurityStamp = "dea04aa5-f550-4160-b822-348efdf9aaf7",
                             TwoFactorEnabled = false,
                             UserName = "taynasuperti@gmail.com"
                         });

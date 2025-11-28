@@ -72,12 +72,23 @@ public class HomeController : Controller
     }
 
     // GET: Home/Sprites - Tela com todos os sprites e filtros
-    public async Task<IActionResult> Sprites()
+public async Task<IActionResult> Sprites(int? categoriaId)
 {
     try
     {
         var categorias = await _lojaService.ObterCategoriasAtivasAsync();
-        var produtos = await _lojaService.ObterTodosProdutosAsync();
+        List<ProdutoDto> produtos;
+
+        if (categoriaId.HasValue && categoriaId > 0)
+        {
+            produtos = await _lojaService.ObterProdutosPorCategoriaAsync(categoriaId.Value);
+            ViewBag.CategoriaSelecionada = categoriaId.Value;
+        }
+        else
+        {
+            produtos = await _lojaService.ObterTodosProdutosAsync();
+            ViewBag.CategoriaSelecionada = 0;
+        }
 
         var viewModel = new SpritesPageVM
         {
@@ -94,7 +105,6 @@ public class HomeController : Controller
         return View(new SpritesPageVM());
     }
 }
-
 
     // GET: Home/Detalhes/5 - Detalhes do produto
     public async Task<IActionResult> Detalhes(int id)

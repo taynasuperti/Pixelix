@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Pixelix.API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class AddInitial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -264,7 +264,7 @@ namespace Pixelix.API.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "DataNascimento", "Email", "EmailConfirmed", "Foto", "LockoutEnabled", "LockoutEnd", "Nome", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "ddf093a6-6cb5-4ff7-9a64-83da34aee005", 0, "e679a0ba-4522-4824-b172-9b62b993c126", new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified), "taynasuperti@gmail.com", true, "/img/usuarios/avatar.png", true, null, "Tayná Carolina Miguel Superti", "TAYNASUPERTI@GMAIL.COM", "TAYNASUPERTI@GMAIL.COM", "AQAAAAIAAYagAAAAEMJvVcRjKBfMnatcEgG4k3eroRazNuSeyTeGeI8f+2XH0bGlhETfIMHf8EJPgpOMNA==", null, false, "8f4e1b60-7626-4ab8-8ffb-d50bd867b117", false, "taynasuperti@gmail.com" });
+                values: new object[] { "ddf093a6-6cb5-4ff7-9a64-83da34aee005", 0, "71733ef9-5fed-4e31-b163-2227bad1bd7f", new DateTime(2006, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified), "taynasuperti@gmail.com", true, "/img/usuarios/avatar.png", true, null, "Tayná Carolina Miguel Superti", "TAYNASUPERTI@GMAIL.COM", "TAYNASUPERTI@GMAIL.COM", "AQAAAAIAAYagAAAAEPWMgqAZdjmQdjblEwpAUDDGUEhArI/PZJ58FNMA8uEuk6jaRhWdan64Sz71dy6NYQ==", null, false, "77e8ece1-cfd3-4f49-bccd-d227474e4904", false, "taynasuperti@gmail.com" });
 
             migrationBuilder.InsertData(
                 table: "Categoria",
