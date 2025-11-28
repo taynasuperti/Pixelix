@@ -58,9 +58,9 @@
                             <tr>
                                 <td>@produto.Id</td>
                                 <td>
-                                    @if (!string.IsNullOrEmpty(produto.FotoUrl))
+                                    @if (!string.IsNullOrEmpty(produto.Foto))
                                     {
-                                        <img src="@produto.FotoUrl" alt="@produto.Nome" 
+                                        <img src="@produto.Foto" alt="@produto.Nome" 
                                              class="img-thumbnail-sm" style="width: 60px; height: 60px; object-fit: cover;">
                                     }
                                     else

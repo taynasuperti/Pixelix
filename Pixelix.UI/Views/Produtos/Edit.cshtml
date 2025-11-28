@@ -94,12 +94,12 @@
                     </div>
 
                     <!-- Preview da imagem atual -->
-                    @if (!string.IsNullOrEmpty(Model.FotoUrl))
+                    @if (!string.IsNullOrEmpty(Model.Foto))
                     {
                         <div class="mb-3">
                             <label class="form-label">Foto Atual:</label>
                             <div class="border rounded p-3 text-center">
-                                <img src="@Model.FotoUrl" class="img-fluid rounded" style="max-height: 200px;" alt="Foto atual do produto" />
+                                <img src="@Model.Foto" class="img-fluid rounded" style="max-height: 200px;" alt="Foto atual do produto" />
                                 <div class="mt-2">
                                     <small class="text-muted">Esta é a foto atual do produto</small>
                                 </div>

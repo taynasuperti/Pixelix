@@ -108,25 +108,71 @@ public async Task<IActionResult> Sprites(int? categoriaId)
 
     // GET: Home/Detalhes/5 - Detalhes do produto
     public async Task<IActionResult> Detalhes(int id)
+{
+    try
     {
-        try
+        if (id <= 0)
         {
-            var produto = await _lojaService.ObterProdutoPorIdAsync(id);
-            if (produto == null)
-            {
-                TempData["Erro"] = "Produto não encontrado.";
-                return RedirectToAction("Produtos");
-            }
-
-            return View(produto);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Erro ao carregar detalhes do produto {Id}", id);
-            TempData["Erro"] = "Erro ao carregar produto.";
+            TempData["Erro"] = "Produto inválido.";
             return RedirectToAction("Produtos");
         }
+
+        var produto = await _lojaService.ObterProdutoPorIdAsync(id);
+        if (produto == null)
+        {
+            TempData["Erro"] = "Produto não encontrado.";
+            return RedirectToAction("Produtos");
+        }
+
+        // Busca relacionados
+        var relacionados = await _lojaService.ObterProdutosPorCategoriaAsync(produto.CategoriaId);
+        relacionados = (relacionados ?? new List<ProdutoDto>())
+            .Where(p => p.Id != produto.Id)
+            .Take(3)
+            .ToList();
+
+        // Produto principal
+        var vm = new ProdutoVM
+        {
+            Id = produto.Id,
+            CategoriaId = produto.CategoriaId,
+            CategoriaNome = produto.CategoriaNome ?? string.Empty,
+            Nome = produto.Nome ?? string.Empty,
+            Descricao = produto.Descricao ?? string.Empty,
+            Qtde = produto.Qtde,
+            ValorCusto = produto.ValorCusto,
+            ValorVenda = produto.ValorVenda,
+            Destaque = produto.Destaque,
+            Foto = produto.Foto ?? string.Empty // 🔄 usa direto, igual HomeVM
+        };
+
+        // Relacionados
+        ViewBag.Relacionados = relacionados.Select(p => new ProdutoVM
+        {
+            Id = p.Id,
+            CategoriaId = p.CategoriaId,
+            CategoriaNome = p.CategoriaNome ?? string.Empty,
+            Nome = p.Nome ?? string.Empty,
+            Descricao = p.Descricao ?? string.Empty,
+            Qtde = p.Qtde,
+            ValorCusto = p.ValorCusto,
+            ValorVenda = p.ValorVenda,
+            Destaque = p.Destaque,
+            Foto = p.Foto ?? string.Empty
+        }).ToList();
+
+        return View(vm);
     }
+    catch (Exception ex)
+    {
+        _logger.LogError(ex, "Erro ao carregar detalhes do produto {Id}", id);
+        TempData["Erro"] = "Erro ao carregar produto.";
+        return RedirectToAction("Produtos");
+    }
+}
+
+
+
 
     public IActionResult Sobre()
     {

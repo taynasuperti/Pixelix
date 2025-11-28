@@ -34,10 +34,10 @@
                 <div class="row">
                     <div class="col-md-4">
                         <!-- Foto do produto -->
-                        @if (!string.IsNullOrEmpty(Model.FotoUrl))
+                        @if (!string.IsNullOrEmpty(Model.Foto))
                         {
                             <div class="text-center mb-3">
-                                <img src="@Model.FotoUrl" class="img-fluid rounded" style="max-height: 200px;" alt="@Model.Nome" />
+                                <img src="@Model.Foto" class="img-fluid rounded" style="max-height: 200px;" alt="@Model.Nome" />
                                 <small class="text-muted">Foto do produto</small>
                             </div>
                         }

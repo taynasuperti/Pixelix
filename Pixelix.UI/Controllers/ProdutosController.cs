@@ -102,14 +102,15 @@ public class ProdutosController : Controller
 
             bool success;
 
-            if (produtoVM.Foto != null && produtoVM.Foto.Length > 0)
+            if (produtoVM.FotoUpload != null && produtoVM.FotoUpload.Length > 0)
             {
-                success = await _produtoService.CriarComFotoAsync(produtoDto, produtoVM.Foto);
+                success = await _produtoService.CriarComFotoAsync(produtoDto, produtoVM.FotoUpload);
             }
             else
             {
                 success = await _produtoService.CriarAsync(produtoDto);
             }
+
 
             if (success)
             {
@@ -187,14 +188,15 @@ public class ProdutosController : Controller
 
             bool success;
 
-            if (produtoVM.Foto != null && produtoVM.Foto.Length > 0)
+            if (produtoVM.FotoUpload != null && produtoVM.FotoUpload.Length > 0)
             {
-                success = await _produtoService.AtualizarComFotoAsync(id, produtoDto, produtoVM.Foto);
+                success = await _produtoService.AtualizarComFotoAsync(id, produtoDto, produtoVM.FotoUpload);
             }
             else
             {
                 success = await _produtoService.AtualizarAsync(id, produtoDto);
             }
+
 
             if (success)
             {

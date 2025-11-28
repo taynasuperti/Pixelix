@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 
 namespace Pixelix.UI.ViewModels;
 
@@ -38,8 +39,9 @@ public class ProdutoVM
     public bool Destaque { get; set; } = false;
 
     [Display(Name = "Foto do Produto")]
-    public IFormFile Foto { get; set; }
+    public IFormFile FotoUpload { get; set; } //  usado para upload
 
-    public string FotoUrl { get; set; }
-    public string CategoriaNome { get; set; }
+    public string Foto { get; set; } = string.Empty; //  usado para exibição
+
+    public string CategoriaNome { get; set; } = string.Empty;
 }

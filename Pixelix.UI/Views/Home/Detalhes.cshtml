@@ -1,0 +1,100 @@
+@model Pixelix.UI.ViewModels.ProdutoVM
+
+@{
+    ViewData["Title"] = "Detalhes do Sprite";
+}
+
+<div class="container mt-4">
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="row">
+        <!-- DIV ESQUERDA: IMAGEM -->
+        <div class="col-md-6">
+            <div>
+                <img src="@Model.Foto" alt="@Model.Nome" class="produto-imagem" />
+            </div>
+        </div>
+
+        <!-- DIV DIREITA: DETALHES -->
+        <div class="col-md-6">
+            <!-- Nome do produto -->
+            <h2 class="cart-item-name">@Model.Nome</h2>
+
+            <!-- Sobre o produto -->
+            <h5 class="d-flex align-items-center gap-2 mt-3 title-format ">
+                <i class="bi bi-exclamation-circle" style="color: #000000;"></i>
+                Sobre o produto
+            </h5>
+
+            <!-- Lista de dados -->
+            <ul class="mt-2" style="list-style: none; padding-left: 0;">
+                <li>@Model.Nome para o seu jogo em Pixel Art.</li>
+                <li>@Model.Descricao</li>
+                <li>Acompanha @Model.Qtde sprites de @Model.Nome.</li>
+            </ul>
+
+            <!-- Formato -->
+            <h5 class="d-flex align-items-center gap-2 mt-3 title-format">
+                <i class="bi bi-download" style="color: #000000;"></i>
+                Formato: PNG & JPG
+            </h5>
+
+            <!-- Botão com preço -->
+            <a asp-controller="Produtos"
+                   asp-action="Carrinho"
+               class="btn w-100 mt-3"
+               style="background-color: #693B8D; border-radius: 5px; border: 3px solid #3F1662; color: #ffffff; text-shadow: 1px 1px #000000; font-size: 50px; font-weight: bold;">
+                R$ @Model.ValorVenda.ToString("N2")
+            </a>
+
+            <!-- Botões lado a lado -->
+            <div class="d-flex gap-3 mt-3">
+                <!-- Comprar Agora -->
+                <a asp-controller="Produtos"
+                   asp-action="Carrinho"
+                   class="btn flex-fill text-center"
+                   style="background-color: #693B8D; border-radius: 5px; border: 3px solid #3F1662; color: #ffffff; text-shadow: 1px 1px #000000; font-size: 20px; font-weight: bold;">
+                    <div>Comprar</div>
+                    <div>Agora</div>
+                </a>
+
+                <!-- Adicionar ao Carrinho -->
+                <a asp-controller="Produtos"
+                   asp-action="Carrinho"
+                   class="btn flex-fill text-center"
+                   style="background-color: #693B8D; border-radius: 5px; border: 3px solid #3F1662; color: #ffffff; text-shadow: 1px 1px #000000; font-size: 20px; font-weight: bold;">
+                    <div>Adicionar ao</div>
+                    <div>Carrinho</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUTOS RELACIONADOS -->
+    <div class="mt-5">
+        <h4 class="d-flex align-items-center gap-2 px-3 py-2"
+            style="background-color: #B898D0; color: #ffffff; text-shadow: 1px 1px #000000; border-radius: 8px; width: fit-content;">
+            <i class="bi bi-search" style="color: #000000;"></i>
+            Produtos Relacionados
+        </h4>
+
+        <div class="row mt-3">
+            @* Exemplo de card relacionado — repita com base nos produtos da mesma categoria *@
+            @foreach (var item in ViewBag.Relacionados as List<ProdutoVM>)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="hot-card position-relative">
+                        <a asp-controller="Home"
+                           asp-action="Detalhes"
+                           asp-route-id="@item.Id">
+                            <img src="@item.Foto" class="hot-img" alt="@item.Nome" />
+                        </a>
+                        <div class="hot-price-tag">
+                            R$ @item.ValorVenda.ToString("N2")
+                        </div>
+                        <h5 class="hot-card-title">@item.Nome</h5>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
