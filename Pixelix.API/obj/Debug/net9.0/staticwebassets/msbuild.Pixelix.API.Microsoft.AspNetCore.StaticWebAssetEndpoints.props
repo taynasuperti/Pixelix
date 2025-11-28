@@ -1,0 +1,400 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/carrossel/carrossel-teste.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\carrossel\carrossel-teste.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7YZmfA0if1hkwm/aM/0\u002BffpodITHvgeoGZjxcCDBLNE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29673"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227YZmfA0if1hkwm/aM/0\u002BffpodITHvgeoGZjxcCDBLNE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/carrossel/carrossel-teste.t48vwzsow3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\carrossel\carrossel-teste.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t48vwzsow3"},{"Name":"integrity","Value":"sha256-7YZmfA0if1hkwm/aM/0\u002BffpodITHvgeoGZjxcCDBLNE="},{"Name":"label","Value":"_content/Pixelix.API/img/carrossel/carrossel-teste.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29673"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227YZmfA0if1hkwm/aM/0\u002BffpodITHvgeoGZjxcCDBLNE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/1/pack-fazendinha.6z4bs2u2y4.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\1\pack-fazendinha.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6z4bs2u2y4"},{"Name":"integrity","Value":"sha256-Ds5ScpQTmADx1NE2yvh59bc1BuIc4Ouv33CRwsQiOms="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/animais/1/pack-fazendinha.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80246"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ds5ScpQTmADx1NE2yvh59bc1BuIc4Ouv33CRwsQiOms=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/1/pack-fazendinha.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\1\pack-fazendinha.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ds5ScpQTmADx1NE2yvh59bc1BuIc4Ouv33CRwsQiOms="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80246"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ds5ScpQTmADx1NE2yvh59bc1BuIc4Ouv33CRwsQiOms=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/2/pack-gatinhos.726n8sdxwg.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\2\pack-gatinhos.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"726n8sdxwg"},{"Name":"integrity","Value":"sha256-kXl\u002BakStpYeAf7IwzqxvUQwk7K2WFHGztUishBVwkwk="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/animais/2/pack-gatinhos.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8408"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kXl\u002BakStpYeAf7IwzqxvUQwk7K2WFHGztUishBVwkwk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/2/pack-gatinhos.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\2\pack-gatinhos.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kXl\u002BakStpYeAf7IwzqxvUQwk7K2WFHGztUishBVwkwk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8408"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kXl\u002BakStpYeAf7IwzqxvUQwk7K2WFHGztUishBVwkwk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/3/pack-passaros.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\3\pack-passaros.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nL/tXBKHvaJCOc4iVd0\u002B8xgmsQ3x2K1a3xLPh3eidRU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25718"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nL/tXBKHvaJCOc4iVd0\u002B8xgmsQ3x2K1a3xLPh3eidRU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/3/pack-passaros.sc5a29w6g3.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\3\pack-passaros.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sc5a29w6g3"},{"Name":"integrity","Value":"sha256-nL/tXBKHvaJCOc4iVd0\u002B8xgmsQ3x2K1a3xLPh3eidRU="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/animais/3/pack-passaros.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25718"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nL/tXBKHvaJCOc4iVd0\u002B8xgmsQ3x2K1a3xLPh3eidRU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/4/pack-silvestre.jihn2oc12l.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\4\pack-silvestre.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jihn2oc12l"},{"Name":"integrity","Value":"sha256-a1ocE51xFMtQAWQKtoWq4/IfiZ534L2yZINCpmXIjfk="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/animais/4/pack-silvestre.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34881"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022a1ocE51xFMtQAWQKtoWq4/IfiZ534L2yZINCpmXIjfk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/animais/4/pack-silvestre.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\animais\4\pack-silvestre.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a1ocE51xFMtQAWQKtoWq4/IfiZ534L2yZINCpmXIjfk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34881"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022a1ocE51xFMtQAWQKtoWq4/IfiZ534L2yZINCpmXIjfk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/1/pack-blocoflores.fds397spgv.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\1\pack-blocoflores.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fds397spgv"},{"Name":"integrity","Value":"sha256-nSgW7Vmb/nS5Cc5vh2QcnubO\u002B1Z7CQ0VU4PV3kbTY10="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/blocos/1/pack-blocoflores.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50184"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nSgW7Vmb/nS5Cc5vh2QcnubO\u002B1Z7CQ0VU4PV3kbTY10=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/1/pack-blocoflores.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\1\pack-blocoflores.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nSgW7Vmb/nS5Cc5vh2QcnubO\u002B1Z7CQ0VU4PV3kbTY10="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50184"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nSgW7Vmb/nS5Cc5vh2QcnubO\u002B1Z7CQ0VU4PV3kbTY10=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/2/pack-blocoselementos.bixdjw3pzs.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\2\pack-blocoselementos.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bixdjw3pzs"},{"Name":"integrity","Value":"sha256-HTKmP0iV65Ta/44L/mIUkLPYS74H1kQkfjgQ\u002BjnrzGQ="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/blocos/2/pack-blocoselementos.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50717"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTKmP0iV65Ta/44L/mIUkLPYS74H1kQkfjgQ\u002BjnrzGQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/2/pack-blocoselementos.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\2\pack-blocoselementos.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HTKmP0iV65Ta/44L/mIUkLPYS74H1kQkfjgQ\u002BjnrzGQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50717"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HTKmP0iV65Ta/44L/mIUkLPYS74H1kQkfjgQ\u002BjnrzGQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/3/pack-blocosgrama.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\3\pack-blocosgrama.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ISvVPcKS/SO9JxGzhr8uQTOoUDE\u002BLDITdp7lTdh2II8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23135"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ISvVPcKS/SO9JxGzhr8uQTOoUDE\u002BLDITdp7lTdh2II8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/3/pack-blocosgrama.v473u4utcs.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\3\pack-blocosgrama.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v473u4utcs"},{"Name":"integrity","Value":"sha256-ISvVPcKS/SO9JxGzhr8uQTOoUDE\u002BLDITdp7lTdh2II8="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/blocos/3/pack-blocosgrama.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23135"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ISvVPcKS/SO9JxGzhr8uQTOoUDE\u002BLDITdp7lTdh2II8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/4/portal.h0jbmsqael.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\4\portal.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h0jbmsqael"},{"Name":"integrity","Value":"sha256-/\u002BQxk\u002BVh3Xy883COmzTtnBH2wqdzTKGNyvxnlvP8RmY="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/blocos/4/portal.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"119914"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/\u002BQxk\u002BVh3Xy883COmzTtnBH2wqdzTKGNyvxnlvP8RmY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/blocos/4/portal.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\blocos\4\portal.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/\u002BQxk\u002BVh3Xy883COmzTtnBH2wqdzTKGNyvxnlvP8RmY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"119914"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/\u002BQxk\u002BVh3Xy883COmzTtnBH2wqdzTKGNyvxnlvP8RmY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/1/cenario-coinquest.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\1\cenario-coinquest.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZVynTVxF8jmB30AaNK53KmXUZy5VBdlyJ2Gj3GBnGCQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"212290"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZVynTVxF8jmB30AaNK53KmXUZy5VBdlyJ2Gj3GBnGCQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/1/cenario-coinquest.v3hcm7708g.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\1\cenario-coinquest.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v3hcm7708g"},{"Name":"integrity","Value":"sha256-ZVynTVxF8jmB30AaNK53KmXUZy5VBdlyJ2Gj3GBnGCQ="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/cenarios/1/cenario-coinquest.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"212290"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZVynTVxF8jmB30AaNK53KmXUZy5VBdlyJ2Gj3GBnGCQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/2/cenario-horadeaventura.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\2\cenario-horadeaventura.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8Xki5Itgq89NXhiU47QPiYrTgU7bLge\u002B\u002BMQRoexUzzs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"70184"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228Xki5Itgq89NXhiU47QPiYrTgU7bLge\u002B\u002BMQRoexUzzs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/2/cenario-horadeaventura.xk4b6y8ebv.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\2\cenario-horadeaventura.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xk4b6y8ebv"},{"Name":"integrity","Value":"sha256-8Xki5Itgq89NXhiU47QPiYrTgU7bLge\u002B\u002BMQRoexUzzs="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/cenarios/2/cenario-horadeaventura.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"70184"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228Xki5Itgq89NXhiU47QPiYrTgU7bLge\u002B\u002BMQRoexUzzs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/3/cenario-mysteryhack.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\3\cenario-mysteryhack.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xo9HU2TaNEJxQeqQsxmPhtJBiTDpvzjcYWBJunus8A8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42683"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Xo9HU2TaNEJxQeqQsxmPhtJBiTDpvzjcYWBJunus8A8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/cenarios/3/cenario-mysteryhack.my8ocgsj8v.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\cenarios\3\cenario-mysteryhack.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"my8ocgsj8v"},{"Name":"integrity","Value":"sha256-Xo9HU2TaNEJxQeqQsxmPhtJBiTDpvzjcYWBJunus8A8="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/cenarios/3/cenario-mysteryhack.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42683"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Xo9HU2TaNEJxQeqQsxmPhtJBiTDpvzjcYWBJunus8A8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/comidas/1/pack-comidas.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\comidas\1\pack-comidas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dfc27LYMLx/oOCY1o4xxi0seB1CnX/pDxHvVrEFx1Fs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"130447"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dfc27LYMLx/oOCY1o4xxi0seB1CnX/pDxHvVrEFx1Fs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/comidas/1/pack-comidas.v73dva5ijr.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\comidas\1\pack-comidas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v73dva5ijr"},{"Name":"integrity","Value":"sha256-dfc27LYMLx/oOCY1o4xxi0seB1CnX/pDxHvVrEFx1Fs="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/comidas/1/pack-comidas.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"130447"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dfc27LYMLx/oOCY1o4xxi0seB1CnX/pDxHvVrEFx1Fs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/comidas/2/pack-doces.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\comidas\2\pack-doces.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gyZ0v3ZOTGkSQii01okwvE3VnauAJs1iYRp7i1eaM\u002B8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"105062"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gyZ0v3ZOTGkSQii01okwvE3VnauAJs1iYRp7i1eaM\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/comidas/2/pack-doces.js4hgthxba.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\comidas\2\pack-doces.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"js4hgthxba"},{"Name":"integrity","Value":"sha256-gyZ0v3ZOTGkSQii01okwvE3VnauAJs1iYRp7i1eaM\u002B8="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/comidas/2/pack-doces.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"105062"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gyZ0v3ZOTGkSQii01okwvE3VnauAJs1iYRp7i1eaM\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/itens/1/pack-pocoes.cw0m0puh38.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\itens\1\pack-pocoes.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cw0m0puh38"},{"Name":"integrity","Value":"sha256-9C2tzdkXEEr2wD7Nu8ttS8V0TNiigNNbEIN4mJK2LUs="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/itens/1/pack-pocoes.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49042"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229C2tzdkXEEr2wD7Nu8ttS8V0TNiigNNbEIN4mJK2LUs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/itens/1/pack-pocoes.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\itens\1\pack-pocoes.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9C2tzdkXEEr2wD7Nu8ttS8V0TNiigNNbEIN4mJK2LUs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49042"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229C2tzdkXEEr2wD7Nu8ttS8V0TNiigNNbEIN4mJK2LUs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/1/fadinha-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\1\fadinha-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B76hej\u002Bgw1FGUU0MqlEmTmrK/Ja0h0QPksE9w0nyiH4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"86793"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022B76hej\u002Bgw1FGUU0MqlEmTmrK/Ja0h0QPksE9w0nyiH4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/1/fadinha-frente.ncwtxxtnbq.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\1\fadinha-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ncwtxxtnbq"},{"Name":"integrity","Value":"sha256-B76hej\u002Bgw1FGUU0MqlEmTmrK/Ja0h0QPksE9w0nyiH4="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/1/fadinha-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"86793"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022B76hej\u002Bgw1FGUU0MqlEmTmrK/Ja0h0QPksE9w0nyiH4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/1/pack-fadinha.e5m6ws1ogu.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\1\pack-fadinha.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e5m6ws1ogu"},{"Name":"integrity","Value":"sha256-otVffEWbBK50qVGKA9AEVpPb\u002Bg2KwTK\u002BkQWjDnXOVG0="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/1/pack-fadinha.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"157049"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022otVffEWbBK50qVGKA9AEVpPb\u002Bg2KwTK\u002BkQWjDnXOVG0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/1/pack-fadinha.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\1\pack-fadinha.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-otVffEWbBK50qVGKA9AEVpPb\u002Bg2KwTK\u002BkQWjDnXOVG0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"157049"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022otVffEWbBK50qVGKA9AEVpPb\u002Bg2KwTK\u002BkQWjDnXOVG0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/2/globin-frente.e13gj29qxo.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\2\globin-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e13gj29qxo"},{"Name":"integrity","Value":"sha256-Yr6y94FsT3MxtR5YHOc7ZQ56SVGx8DIU0Ac/E21PkkY="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/2/globin-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"41838"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Yr6y94FsT3MxtR5YHOc7ZQ56SVGx8DIU0Ac/E21PkkY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/2/globin-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\2\globin-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Yr6y94FsT3MxtR5YHOc7ZQ56SVGx8DIU0Ac/E21PkkY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"41838"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Yr6y94FsT3MxtR5YHOc7ZQ56SVGx8DIU0Ac/E21PkkY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/2/pack-globin.5rb6310hfk.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\2\pack-globin.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5rb6310hfk"},{"Name":"integrity","Value":"sha256-AUi9jxj8wL0Udcfk6ZaOe5Vnqkyi2QxIl/zJNNu0K34="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/2/pack-globin.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"155774"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AUi9jxj8wL0Udcfk6ZaOe5Vnqkyi2QxIl/zJNNu0K34=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/2/pack-globin.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\2\pack-globin.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AUi9jxj8wL0Udcfk6ZaOe5Vnqkyi2QxIl/zJNNu0K34="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"155774"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AUi9jxj8wL0Udcfk6ZaOe5Vnqkyi2QxIl/zJNNu0K34=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/3/mago-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\3\mago-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cteWsNdh/ZyerGDVLZVm1IXqf\u002BW8p2BFdrP2/PyCcrk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65148"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cteWsNdh/ZyerGDVLZVm1IXqf\u002BW8p2BFdrP2/PyCcrk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/3/mago-frente.u0n4fbeab5.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\3\mago-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u0n4fbeab5"},{"Name":"integrity","Value":"sha256-cteWsNdh/ZyerGDVLZVm1IXqf\u002BW8p2BFdrP2/PyCcrk="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/3/mago-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65148"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cteWsNdh/ZyerGDVLZVm1IXqf\u002BW8p2BFdrP2/PyCcrk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/3/pack-mago.hbk1hj1dhe.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\3\pack-mago.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hbk1hj1dhe"},{"Name":"integrity","Value":"sha256-47U/ynYAHKKt\u002BiRq3zpbQfG1tJNiBQv1Ev9L8K2kxhM="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/3/pack-mago.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"64462"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002247U/ynYAHKKt\u002BiRq3zpbQfG1tJNiBQv1Ev9L8K2kxhM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/3/pack-mago.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\3\pack-mago.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47U/ynYAHKKt\u002BiRq3zpbQfG1tJNiBQv1Ev9L8K2kxhM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"64462"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002247U/ynYAHKKt\u002BiRq3zpbQfG1tJNiBQv1Ev9L8K2kxhM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/4/menina-frente.exxq8pzzsy.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\4\menina-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"exxq8pzzsy"},{"Name":"integrity","Value":"sha256-vtUvD8pyfC3JcyCddNZCmAcBA/idw\u002BU83LiAjuhcTSQ="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/4/menina-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vtUvD8pyfC3JcyCddNZCmAcBA/idw\u002BU83LiAjuhcTSQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/4/menina-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\4\menina-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vtUvD8pyfC3JcyCddNZCmAcBA/idw\u002BU83LiAjuhcTSQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29939"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vtUvD8pyfC3JcyCddNZCmAcBA/idw\u002BU83LiAjuhcTSQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/4/pack-menina.30fokb88sv.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\4\pack-menina.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"30fokb88sv"},{"Name":"integrity","Value":"sha256-DX6GZ1YRnRTUman53G63i1TclGWdJ\u002BQfTjxk7YbLobw="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/4/pack-menina.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99967"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DX6GZ1YRnRTUman53G63i1TclGWdJ\u002BQfTjxk7YbLobw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/4/pack-menina.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\4\pack-menina.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DX6GZ1YRnRTUman53G63i1TclGWdJ\u002BQfTjxk7YbLobw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"99967"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DX6GZ1YRnRTUman53G63i1TclGWdJ\u002BQfTjxk7YbLobw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/5/menino-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\5\menino-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uVS/LNjDShzRGhNbCe/VOQaH6B04xWF0d4w0hFwiswQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022uVS/LNjDShzRGhNbCe/VOQaH6B04xWF0d4w0hFwiswQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/5/menino-frente.zp69pq0rwp.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\5\menino-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zp69pq0rwp"},{"Name":"integrity","Value":"sha256-uVS/LNjDShzRGhNbCe/VOQaH6B04xWF0d4w0hFwiswQ="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/5/menino-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48661"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022uVS/LNjDShzRGhNbCe/VOQaH6B04xWF0d4w0hFwiswQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/5/pack-menino.9w0s4rb86n.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\5\pack-menino.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9w0s4rb86n"},{"Name":"integrity","Value":"sha256-d4yc7X9nJuKsG\u002BnUkBoCoqaYuRkMIzHWfD/qPTJgIiI="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/5/pack-menino.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112350"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022d4yc7X9nJuKsG\u002BnUkBoCoqaYuRkMIzHWfD/qPTJgIiI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/5/pack-menino.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\5\pack-menino.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4yc7X9nJuKsG\u002BnUkBoCoqaYuRkMIzHWfD/qPTJgIiI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112350"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022d4yc7X9nJuKsG\u002BnUkBoCoqaYuRkMIzHWfD/qPTJgIiI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/6/pack-vilao.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\6\pack-vilao.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n9hAijA7bMhnhS29MaD/p/yKyg8FSI4BtFy\u002BdNqMcNc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"41908"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n9hAijA7bMhnhS29MaD/p/yKyg8FSI4BtFy\u002BdNqMcNc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/6/pack-vilao.r5pdwi3th6.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\6\pack-vilao.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r5pdwi3th6"},{"Name":"integrity","Value":"sha256-n9hAijA7bMhnhS29MaD/p/yKyg8FSI4BtFy\u002BdNqMcNc="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/6/pack-vilao.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"41908"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022n9hAijA7bMhnhS29MaD/p/yKyg8FSI4BtFy\u002BdNqMcNc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/6/vilao-frente.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\6\vilao-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dikNRezCLVca50T\u002BXHA9AC1wQRGEOFmxJvc0B4K4YHE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42694"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dikNRezCLVca50T\u002BXHA9AC1wQRGEOFmxJvc0B4K4YHE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/6/vilao-frente.y5mdogqera.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\6\vilao-frente.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y5mdogqera"},{"Name":"integrity","Value":"sha256-dikNRezCLVca50T\u002BXHA9AC1wQRGEOFmxJvc0B4K4YHE="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/6/vilao-frente.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42694"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dikNRezCLVca50T\u002BXHA9AC1wQRGEOFmxJvc0B4K4YHE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/7/pack-bruxas.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\7\pack-bruxas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KGYgyDYJn5VE\u002BJup7uavvY3qoNwENBVnoVNaHEkNlF8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"52091"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KGYgyDYJn5VE\u002BJup7uavvY3qoNwENBVnoVNaHEkNlF8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/7/pack-bruxas.o4khix39eb.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\7\pack-bruxas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o4khix39eb"},{"Name":"integrity","Value":"sha256-KGYgyDYJn5VE\u002BJup7uavvY3qoNwENBVnoVNaHEkNlF8="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/7/pack-bruxas.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52091"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022KGYgyDYJn5VE\u002BJup7uavvY3qoNwENBVnoVNaHEkNlF8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/8/pack-fadinhas.gr22q3z3bz.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\8\pack-fadinhas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gr22q3z3bz"},{"Name":"integrity","Value":"sha256-fLAcDPiLkK5R9qREctwVoHvFluzDOt3V3UoWhZ1QUno="},{"Name":"label","Value":"_content/Pixelix.API/img/categorias/personagens/8/pack-fadinhas.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"55045"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fLAcDPiLkK5R9qREctwVoHvFluzDOt3V3UoWhZ1QUno=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/categorias/personagens/8/pack-fadinhas.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\categorias\personagens\8\pack-fadinhas.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fLAcDPiLkK5R9qREctwVoHvFluzDOt3V3UoWhZ1QUno="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"55045"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fLAcDPiLkK5R9qREctwVoHvFluzDOt3V3UoWhZ1QUno=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/desenvolvedoras/lorrany-v1.9sbtehwrpa.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\desenvolvedoras\lorrany-v1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9sbtehwrpa"},{"Name":"integrity","Value":"sha256-6VLE/GONd51cMjoGi26EQipGvx2s2UkBJZ\u002B6\u002B718b9E="},{"Name":"label","Value":"_content/Pixelix.API/img/desenvolvedoras/lorrany-v1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18103"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226VLE/GONd51cMjoGi26EQipGvx2s2UkBJZ\u002B6\u002B718b9E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/desenvolvedoras/lorrany-v1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\desenvolvedoras\lorrany-v1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6VLE/GONd51cMjoGi26EQipGvx2s2UkBJZ\u002B6\u002B718b9E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18103"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226VLE/GONd51cMjoGi26EQipGvx2s2UkBJZ\u002B6\u002B718b9E=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/desenvolvedoras/tayna-v1.8nxwyy9792.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\desenvolvedoras\tayna-v1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8nxwyy9792"},{"Name":"integrity","Value":"sha256-VOzkWW/7dZM4Pxa0yhi6\u002B/ZpEbMP/v7CGpEqAvszj\u002Bo="},{"Name":"label","Value":"_content/Pixelix.API/img/desenvolvedoras/tayna-v1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35946"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VOzkWW/7dZM4Pxa0yhi6\u002B/ZpEbMP/v7CGpEqAvszj\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/desenvolvedoras/tayna-v1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\desenvolvedoras\tayna-v1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VOzkWW/7dZM4Pxa0yhi6\u002B/ZpEbMP/v7CGpEqAvszj\u002Bo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"35946"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VOzkWW/7dZM4Pxa0yhi6\u002B/ZpEbMP/v7CGpEqAvszj\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/logo/pixelix-logo.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo\pixelix-logo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JdBdLPHHgcsm4SLSrAZOQYGbblJFY48USPOYio2LmS8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65063"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022JdBdLPHHgcsm4SLSrAZOQYGbblJFY48USPOYio2LmS8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/logo/pixelix-logo.pjqf03fvvm.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo\pixelix-logo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pjqf03fvvm"},{"Name":"integrity","Value":"sha256-JdBdLPHHgcsm4SLSrAZOQYGbblJFY48USPOYio2LmS8="},{"Name":"label","Value":"_content/Pixelix.API/img/logo/pixelix-logo.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65063"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022JdBdLPHHgcsm4SLSrAZOQYGbblJFY48USPOYio2LmS8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/sprites-teste.am8v203zem.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sprites-teste.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"am8v203zem"},{"Name":"integrity","Value":"sha256-npDwDQVfa4/HIif\u002BshCs8IWBdo6y\u002BJrbj9\u002BNIn97UFc="},{"Name":"label","Value":"_content/Pixelix.API/img/sprites-teste.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44059"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022npDwDQVfa4/HIif\u002BshCs8IWBdo6y\u002BJrbj9\u002BNIn97UFc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Pixelix.API/img/sprites-teste.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\sprites-teste.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-npDwDQVfa4/HIif\u002BshCs8IWBdo6y\u002BJrbj9\u002BNIn97UFc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44059"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022npDwDQVfa4/HIif\u002BshCs8IWBdo6y\u002BJrbj9\u002BNIn97UFc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Nov 2025 22:14:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -568,3 +568,4 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix.API.pdb
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\Pixelix.API.genruntimeconfig.cache
 C:\Users\etec\Desktop\Pixelix\Pixelix.API\obj\Debug\net9.0\ref\Pixelix.API.dll
 C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.API\bin\Debug\net9.0\Pixelix.API.staticwebassets.runtime.json
+C:\Users\etec\Desktop\Pixelix\Pixelix.API\bin\Debug\net9.0\Pixelix.API.staticwebassets.runtime.json

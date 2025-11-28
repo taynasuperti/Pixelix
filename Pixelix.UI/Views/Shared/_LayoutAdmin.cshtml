@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,20 +28,33 @@
         </a>
 
         <div class="dropdown">
-            <button class="pixelix-icon-btn dropdown-toggle bg-transparent border-0 p-0"
-                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="pixelix-icon-btn dropdown-toggle bg-transparent border-0 p-0" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="bi bi-person-circle"></i>
             </button>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" asp-controller="Auth" asp-action="MinhaConta"><i class="bi bi-person"></i> Minha Conta</a></li>
-                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Dashboard" asp-action="Index"><i class="bi bi-speedometer2"></i> Área Administrativa</a></li>
-                <li><hr class="dropdown-divider"></li>
+            <ul class="dropdown-menu dropdown-menu-end shadow">
                 <li>
-                    <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline">
-                        <button class="dropdown-item text-danger" type="submit"><i class="bi bi-box-arrow-right"></i> Sair</button>
+                    <a  asp-controller="Auth" asp-action="MinhaConta">
+                        <i class="bi bi-person"></i> Minha Conta
+                    </a>
+                </li>
+                <li>
+                    <a  asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                        <i class="bi bi-speedometer2"></i> Área Administrativa
+                    </a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li>
+                    <form asp-controller="Auth" asp-action="Logout" method="post" >
+                        <button class="dropdown-item text-danger" type="submit">
+                            <i class="bi bi-box-arrow-right"></i> Sair
+                        </button>
                     </form>
                 </li>
             </ul>
+
         </div>
     </nav>
 
@@ -53,13 +67,14 @@
         <div class="filter-title">Administração</div>
 
         <div class="filter-group">
-            <div class="filter-category">Navegação</div>
+            @* <div class="filter-category">Navegação</div> *@
             <ul class="filter-sublist">
-                <li><a asp-controller="Admin" asp-action="Index" class= "@activeMenu("Admin")">Dashboard</a></li>
-                <li><a asp-controller="Clientes" asp-action="Index" class="@activeMenu("Clientes") ">Clientes</a></li>
+                <li><a asp-controller="Admin" asp-action="Index" class="@activeMenu("Admin")">Dashboard</a></li>
+                @* <li><a asp-controller="Clientes" asp-action="Index" class="@activeMenu("Clientes") ">Clientes</a></li> *@
                 <li><a asp-controller="Produtos" asp-action="Index" class="@activeMenu("Produtos")">Produtos</a></li>
-                <li><a asp-controller="Categorias" asp-action="Index" class="@activeMenu("Categorias")">Categorias</a></li>
-                <li><a asp-controller="Usuarios" asp-action="Index" class="@activeMenu("Usuarios")">Usuários</a></li>
+                <li><a asp-controller="Categorias" asp-action="Index" class="@activeMenu("Categorias")">Categorias</a>
+                </li>
+                @* <li><a asp-controller="Usuarios" asp-action="Index" class="@activeMenu("Usuarios")">Usuários</a></li> *@
             </ul>
         </div>
     </div>
@@ -74,4 +89,5 @@
     <script src="~/js/admin.js"></script>
     @await RenderSectionAsync("Scripts", false)
 </body>
+
 </html>

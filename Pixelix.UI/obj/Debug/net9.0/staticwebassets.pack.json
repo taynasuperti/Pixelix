@@ -133,12 +133,24 @@
       "PackagePath": "staticwebassets\\img\\categorias\\personagens\\8\\pack-fadinhas.jpeg"
     },
     {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\Lorrany.png",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\Lorrany.png"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\Tayná.png",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\Tayná.png"
+    },
+    {
       "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\lorrany-v1.jpg",
       "PackagePath": "staticwebassets\\img\\desenvolvedoras\\lorrany-v1.jpg"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\desenvolvedoras\\tayna-v1.jpg",
       "PackagePath": "staticwebassets\\img\\desenvolvedoras\\tayna-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\logo\\Pixelix.png",
+      "PackagePath": "staticwebassets\\img\\logo\\Pixelix.png"
     },
     {
       "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.UI\\wwwroot\\img\\logo\\pixelix-logo.jpeg",

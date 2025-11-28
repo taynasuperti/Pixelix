@@ -1,0 +1,157 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\carrossel\\carrossel-teste.jpg",
+      "PackagePath": "staticwebassets\\img\\carrossel\\carrossel-teste.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\animais\\1\\pack-fazendinha.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\1\\pack-fazendinha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\animais\\2\\pack-gatinhos.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\2\\pack-gatinhos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\animais\\3\\pack-passaros.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\3\\pack-passaros.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\animais\\4\\pack-silvestre.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\animais\\4\\pack-silvestre.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\blocos\\1\\pack-blocoflores.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\1\\pack-blocoflores.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\blocos\\2\\pack-blocoselementos.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\2\\pack-blocoselementos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\blocos\\3\\pack-blocosgrama.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\3\\pack-blocosgrama.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\blocos\\4\\portal.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\blocos\\4\\portal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\cenarios\\1\\cenario-coinquest.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\1\\cenario-coinquest.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\cenarios\\2\\cenario-horadeaventura.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\2\\cenario-horadeaventura.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\cenarios\\3\\cenario-mysteryhack.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\cenarios\\3\\cenario-mysteryhack.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\comidas\\1\\pack-comidas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\comidas\\1\\pack-comidas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\comidas\\2\\pack-doces.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\comidas\\2\\pack-doces.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\itens\\1\\pack-pocoes.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\itens\\1\\pack-pocoes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\1\\fadinha-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\1\\fadinha-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\1\\pack-fadinha.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\1\\pack-fadinha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\2\\globin-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\2\\globin-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\2\\pack-globin.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\2\\pack-globin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\3\\mago-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\3\\mago-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\3\\pack-mago.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\3\\pack-mago.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\4\\menina-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\4\\menina-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\4\\pack-menina.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\4\\pack-menina.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\5\\menino-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\5\\menino-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\5\\pack-menino.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\5\\pack-menino.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\6\\pack-vilao.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\6\\pack-vilao.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\6\\vilao-frente.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\6\\vilao-frente.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\7\\pack-bruxas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\7\\pack-bruxas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\categorias\\personagens\\8\\pack-fadinhas.jpeg",
+      "PackagePath": "staticwebassets\\img\\categorias\\personagens\\8\\pack-fadinhas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\desenvolvedoras\\lorrany-v1.jpg",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\lorrany-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\desenvolvedoras\\tayna-v1.jpg",
+      "PackagePath": "staticwebassets\\img\\desenvolvedoras\\tayna-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\logo\\pixelix-logo.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo\\pixelix-logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\etec\\Desktop\\Pixelix\\Pixelix.API\\wwwroot\\img\\sprites-teste.jpg",
+      "PackagePath": "staticwebassets\\img\\sprites-teste.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pixelix.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pixelix.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Pixelix.API.props",
+      "PackagePath": "build\\Pixelix.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Pixelix.API.props",
+      "PackagePath": "buildMultiTargeting\\Pixelix.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Pixelix.API.props",
+      "PackagePath": "buildTransitive\\Pixelix.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
