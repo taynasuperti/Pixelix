@@ -202,4 +202,4 @@ C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\refint\Pixelix.UI.dll
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\etec\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
-C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-jborlj11qd.gz
+C:\Users\tayna\OneDrive\Documentos\Desktop\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-6v7n54ce2a.gz

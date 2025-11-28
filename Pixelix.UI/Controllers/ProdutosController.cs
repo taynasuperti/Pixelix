@@ -9,7 +9,7 @@ using System.Text.Json;
 
 namespace Pixelix.UI.Controllers;
 
-[Authorize(Roles = "Administrador")]
+// [Authorize(Roles = "Administrador")]
 public class ProdutosController : Controller
 {
     private readonly IProdutoService _produtoService;

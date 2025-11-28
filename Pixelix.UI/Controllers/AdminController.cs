@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Pixelix.UI.Controllers;
 
-[Authorize(Roles = "Administrador")]
+// [Authorize(Roles = "Administrador")]
 public class AdminController : Controller
 {
     private readonly ILogger<AdminController> _logger;

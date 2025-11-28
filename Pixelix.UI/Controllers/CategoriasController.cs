@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Pixelix.UI.Controllers;
 
-[Authorize(Roles = "Administrador")]
+// [Authorize(Roles = "Administrador")]
 public class CategoriasController : Controller
 {
     private readonly ICategoriaService _categoriaService;
