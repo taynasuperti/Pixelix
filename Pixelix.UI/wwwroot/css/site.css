@@ -962,3 +962,12 @@ body {
     font-weight: bold;
 }
 
+.bi-exclamation-circle {
+  color: #000000;
+  text-shadow: none;
+}
+
+.bi-download {
+  color: #000000;
+  text-shadow: none;
+}
