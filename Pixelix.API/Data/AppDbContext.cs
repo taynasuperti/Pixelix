@@ -123,7 +123,7 @@ public class AppDbContext : IdentityDbContext<Usuario>
                 Descricao = "Pack de gatinhos fofinhos em pixel art.",
                 Qtde = 10,
                 ValorCusto = 0m,
-                ValorVenda = 105.99m,
+                ValorVenda = 120.99m,
                 Destaque = false,
                 Foto = "/img/categorias/animais/2/pack-gatinhos.jpeg"
             },

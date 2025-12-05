@@ -280,48 +280,4 @@ public class ProdutosController : Controller
             ViewBag.Categorias = new List<CategoriaDto>();
         }
     }
-
-    [AllowAnonymous]
-// GET: /Produto/Carrinho
-    public IActionResult Carrinho()
-    {
-        List<ProdutoDto> itensCarrinho;
-
-        var sessionJson = HttpContext.Session.GetString("Carrinho");
-        if (!string.IsNullOrEmpty(sessionJson))
-        {
-            try
-            {
-                itensCarrinho = JsonSerializer.Deserialize<List<ProdutoDto>>(sessionJson) ?? new List<ProdutoDto>();
-            }
-            catch
-            {
-                itensCarrinho = new List<ProdutoDto>();
-            }
-        }
-        else
-        {
-            // fallback estático para desenvolvimento / testes
-            itensCarrinho = new List<ProdutoDto>
-            {
-                new ProdutoDto
-                {
-                    Id = 1,
-                    Nome = "Pão com 130 Sprites de Guloseimas 2D",
-                    Descricao = "Pacote com sprites variados",
-                    ValorVenda = 120.99m,
-                    Foto = "/img/sprites-teste.jpg",
-                    CategoriaNome = "Doces"
-                }
-            };
-        }
-
-        var vm = new CarrinhoVM
-        {
-            Itens = itensCarrinho,
-            Total = itensCarrinho.Sum(x => x.ValorVenda)
-        };
-
-        return View(vm);
-    }
 }
