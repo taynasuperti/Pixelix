@@ -88,12 +88,42 @@ public class AppDbContext : IdentityDbContext<Usuario>
         List<Categoria> categorias = new()
         {
             // Criar suas categorias
-            new Categoria { Id = 1, Nome = "Animais", Cor = null, Foto = null },
-            new Categoria { Id = 2, Nome = "Blocos", Cor = null, Foto = null },
-            new Categoria { Id = 3, Nome = "Cenários", Cor = null, Foto = null },
-            new Categoria { Id = 4, Nome = "Comidas", Cor = null, Foto = null },
-            new Categoria { Id = 5, Nome = "Itens", Cor = null, Foto = null },
-            new Categoria { Id = 6, Nome = "Personagens", Cor = null, Foto = null }
+            new Categoria { 
+                Id = 1,
+                Nome = "Animais", 
+                Cor = null, 
+                Foto = "/img/categorias/animais/2/pack-gatinhos.jpeg"
+            },
+            new Categoria { 
+                Id = 2, 
+                Nome = "Blocos", 
+                Cor = null, 
+                Foto = "/img/categorias/blocos/4/portal.jpeg" 
+            },
+            new Categoria { 
+                Id = 3, 
+                Nome = "Cenários", 
+                Cor = null, 
+                Foto = "/img/categorias/cenarios/1/cenario-coinquest.jpeg" 
+            },
+            new Categoria { 
+                Id = 4, 
+                Nome = "Comidas", 
+                Cor = null, 
+                Foto = "/img/categorias/comidas/2/pack-doces.jpeg"
+            },
+            new Categoria { 
+                Id = 5, 
+                Nome = "Itens", 
+                Cor = null, 
+                Foto = "/img/categorias/itens/1/pack-pocoes.jpeg"
+            },
+            new Categoria { 
+                Id = 6, 
+                Nome = "Personagens", 
+                Cor = null, 
+                Foto = "/img/categorias/personagens/8/pack-fadinhas.jpeg"
+            }
         };
         builder.Entity<Categoria>().HasData(categorias);
     }
