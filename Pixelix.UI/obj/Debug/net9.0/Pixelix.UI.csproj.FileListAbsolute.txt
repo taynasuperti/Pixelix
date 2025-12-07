@@ -229,7 +229,8 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\scopedcss\bundle\Pixelix.UI.styles.css
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\scopedcss\projectbundle\Pixelix.UI.bundle.scp.css
-C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\7ofvhdh0k2-ai53s8d3w3.gz
+C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\7ofvhdh0k2-gvp2jtu8tm.gz
+C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-vpz78fo68v.gz
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\0qovuz3z3x-61n19gt1b8.gz
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\j2937bm2fd-d4582rz1bx.gz
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\no821wddk1-xtxxf3hu2r.gz
@@ -304,4 +305,3 @@ C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.pdb
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\Pixelix.UI.genruntimeconfig.cache
 C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\ref\Pixelix.UI.dll
-C:\Users\tayna\OneDrive\Documentos\Desktop\ESTUDOS\Pixelix\Pixelix.UI\obj\Debug\net9.0\compressed\tckn9ht44a-vpz78fo68v.gz

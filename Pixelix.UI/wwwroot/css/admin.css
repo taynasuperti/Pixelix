@@ -141,6 +141,7 @@ a {
   font-weight: 700;
   font-size: 15px;
   margin: 12px 0 8px 0;
+  text-decoration: none;
 }
 
 
@@ -351,4 +352,11 @@ a {
   font-weight: 700;
   font-size: 15px;
   margin: 12px 0 8px 0;
+}
+
+i.fas, i.fa, i.far, i.fal, i.fab, i.fa-solid, i.fa-regular, i.fa-light, i.fa-brands {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    text-shadow: none !important;
+    color: inherit;
 }
